@@ -1,4 +1,5 @@
 :root {
+    --headerToolbarHeight: 40px;
     --colorPanelBackground: #2c2c2c80;
     --colorPanelBorder: #5F5F5F;
     --colorPageBackground: #1b1b1b;
@@ -22,9 +23,16 @@ body {
     src: url("/assets//friz-quadrata-regular.ttf");
 }
 
+.ember-application {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 .header-toolbar {
     width: 100%;
-    height: 40px;
+    height: var(--headerToolbarHeight);
     padding: 2px 10px 2px 10px;
     background-color: var(--colorPanelBackground);
     border-bottom: 1px solid var(--colorPanelBorder);
@@ -36,9 +44,11 @@ body {
 }
 
 .outlet-container {
+    height: calc(100% - var(--headerToolbarHeight));
     display: flex;
     flex-direction: column;
-    justify-content: center
+    max-height: calc(100% - 40px);
+    overflow: auto;
 }
 
 .header-turtle-logo {

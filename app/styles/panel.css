@@ -3,7 +3,6 @@
     flex-direction: column;
     margin: 10px auto 10px auto;
     padding: 1rem 1rem 1rem 1rem;
-    min-height: 50px;
     width: 100%;
     background-color: var(--colorPanelBackground);
     border: 1px solid var(--colorPanelBorder);
