@@ -1,0 +1,9 @@
+.chart {
+    padding-bottom: 0.5rem;
+    /* transition: height 200ms, transform 200ms; */
+}
+
+.btn {
+    background-color: var(--colorButtonBackground);
+    border: 1px solid var(--colorButtonBorder);
+}

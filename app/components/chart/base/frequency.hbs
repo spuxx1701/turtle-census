@@ -1,0 +1,6 @@
+<canvas id="{{@chartId}}" class="chart" {{did-insert this.initialize}}></canvas>
+<BsButtonGroup @value={{this.chartType}} @type="radio" @onChange={{this.onTypeChange}} as |bg|>
+    <bg.button @value="pie">Pie</bg.button>
+    <bg.button @value="doughnut">Doughnut</bg.button>
+    <bg.button @value="bar">Bar</bg.button>
+</BsButtonGroup>

@@ -1,0 +1,72 @@
+/* CLASS COLORS */
+.fg-class-Druid {
+    color: #FF7D0A;
+}
+
+.bg-class-Druid {
+    background-color: #FF7D0A;
+}
+
+.fg-class-Hunter {
+    color: #ABD473;
+}
+
+.bg-class-Hunter {
+    background-color: #ABD473;
+}
+
+.fg-class-Mage {
+    color: #69CCF0;
+}
+
+.bg-class-Mage {
+    background-color: #69CCF0;
+}
+
+.fg-class-Paladin {
+    color: #F58CBA;
+}
+
+.bg-class-Paladin {
+    background-color: #F58CBA;
+}
+
+.fg-class-Priest {
+    color: #FFFFFF;
+}
+
+.bg-class-Priest {
+    background-color: #FFFFFF;
+}
+
+.fg-class-Rogue {
+    color: #FFF569;
+}
+
+.bg-class-Rogue {
+    background-color: #FFF569;
+}
+
+.fg-class-Shaman {
+    color: #0070DE;
+}
+
+.bg-class-Shaman {
+    background-color: #0070DE;
+}
+
+.fg-class-Warlock {
+    color: #9482C9;
+}
+
+.bg-class-Warlock {
+    background-color: #9482C9;
+}
+
+.fg-class-Warrior {
+    color: #C79C6E;
+}
+
+.bg-class-Warrior {
+    background-color: #C79C6E;
+}

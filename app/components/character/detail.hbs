@@ -1,0 +1,49 @@
+<Panel @size="small">
+    <h4 class="highlighted">{{@character.name}}</h4>
+    {{!-- <div class="flex-row"> --}}
+        <div class="flex-row">
+            <p class="label">Level</p>
+            <p class="highlighted text-padding">{{@character.level}}</p>
+            <p class="fg-class-{{@character.class}}">{{@character.class}}</p>
+        </div>
+        <div class="flex-row">
+            <p class="label">{{@character.guild}}
+                ({{@character.guildRank}})</p>
+        </div>
+        {{!--
+    </div> --}}
+    {{!-- <table>
+        <tr>
+            <td>
+                <p class="label">Class:</p>
+            </td>
+            <td>
+                <p class="fg-class-{{@character.class}}">{{@character.class}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="label">Level:</p>
+            </td>
+            <td>
+                <p>{{@character.level}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="label">Rank:</p>
+            </td>
+            <td>
+                <p>{{@character.rank}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="label">Guild:</p>
+            </td>
+            <td>
+                <p>{{@character.guild}} ({{@character.guildRank}})</p>
+            </td>
+        </tr>
+    </table> --}}
+</Panel>

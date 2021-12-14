@@ -1,0 +1,32 @@
+p {
+    color: var(--colorTextDefault);
+    font-family: "FritzQuadrata";
+}
+
+.highlighted {
+    color: var(--colorTextHighlight);
+    font-weight: bold;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "FritzQuadrata";
+    color: var(--colorTextDefault);
+}
+
+.label {
+    color: var(--colorTextLabel);
+}
+
+.text-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    color: var(--colorTextLink);
+    transition: 200ms;
+}
+
+a:hover {
+    color: var(--colorTextLinkHover)
+}

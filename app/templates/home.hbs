@@ -1,0 +1,15 @@
+{{page-title "Home"}}
+<a href="https://turtle-wow.org" class="logo">
+    <img class="logo" src="/assets/turtle-wow-logo.png" />
+</a>
+<h1 class="title text-center">CenSUS</h1>
+{{!-- <Panel @size="medium" @title="What is the CenSUS?">
+    <p>The CenSUS displays data that was gathered by myself on Turtle WoW. All data is gathered by a single person and
+        refreshed weekly.</p>
+</Panel> --}}
+<Panel @size="medium" @title="Class frequency">
+    <Chart::Class @data={{@model.characters}} @chartId="chart-classes" />
+</Panel>
+<Panel @size="medium" @title="Guild member counts">
+    <Chart::Guild @data={{@model.guilds}} @chartId="chart-guilds" />
+</Panel>

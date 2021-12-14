@@ -1,0 +1,31 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 10px auto;
+    padding: 1rem 1rem 1rem 1rem;
+    min-height: 50px;
+    width: 100%;
+    background-color: var(--colorPanelBackground);
+    border: 1px solid var(--colorPanelBorder);
+    border-radius: 1px;
+    align-items: center;
+}
+
+.panel-medium {
+    width: 650px;
+    max-width: 100%;
+}
+
+.panel-small {
+    width: 500px;
+    max-width: 100%;
+}
+
+.panel-separator {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 1px;
+    height: 1px;
+    background-color: var(--colorPanelBorder);
+}

@@ -1,7 +1,13 @@
 {{page-title "TurtleCensus"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="header-toolbar">
+    <Spacer />
+    {{!-- <a href="https://turtle-wow.org">
+        <img class="header-turtle-logo" src="/assets/turtle-wow-logo.png" alt="Turtle WoW Website" />
+    </a> --}}
+    <a href="https://github.com/LeopoldHock">
+        <FaIcon @icon="github" @prefix="fab" @size="2x" />
+    </a>
+</div>
+<div class="outlet-container">
+    {{outlet}}
+</div>
