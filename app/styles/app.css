@@ -1,21 +1,25 @@
 :root {
     --headerToolbarHeight: 44px;
-    --colorPanelBackground: #1a1a1a80;
+    --colorPanelBackground: rgb(26, 26, 26, 0.7);
     --colorPanelBorder: #5F5F5F;
     --colorPageBackground: #1b1b1b;
     --colorButtonBackground: #1a1a1a;
     --colorButtonBorder: #5F5F5F;
+    --colorButtonBackgroundActive: #ca8e01;
     --colorTextDefault: #f1f1f1;
     --colorTextLabel: #c1c1c1;
     --colorTextHighlight: #ffffff;
-    --colorTextLink: #498082;
-    --colorTextLinkHover: #436969;
+    --colorTextLink: #f3ba32;
+    --colorTextLinkHover: #ffe600;
+    --colorTitleTop: #ffe600;
+    --colorTitleBottom: #f38f32;
 }
 
 body {
     color: var(--colorTextDefault);
     background-color: var(--colorPageBackground);
     background-image: url("/assets/background.jpg");
+    background-size: cover;
 }
 
 .ember-application {
@@ -47,6 +51,7 @@ body {
 
 .header-github {
     color: var(--colorTextLabel);
+    transition: 200ms;
 }
 
 .header-github:hover {
@@ -77,8 +82,11 @@ svg:not(:root).svg-inline--fa {
 }
 
 .title {
-    color: var(--colorTextDefault);
-    text-shadow: 2px 2px 2px goldenrod;
+    background: linear-gradient(to bottom, var(--colorTitleTop) 0%, var(--colorTitleBottom) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    /* text-shadow: 0px 0px 2px var(--colorTextDefault); */
 }
 
 .logo {

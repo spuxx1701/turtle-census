@@ -71,7 +71,6 @@ input {
 }
 
 .dropdown-item.active {
-    background-color: var(--colorTextHighlight);
     background-color: var(--colorButtonBorder);
 }
 
