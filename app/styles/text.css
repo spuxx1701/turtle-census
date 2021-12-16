@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'DinProLight';
+    src: url("/assets/fonts/DINPro-Light.otf");
+}
+
+@font-face {
+    font-family: 'FrontinSansCyrillic';
+    src: url("/assets/fonts/FontinSans_Cyrillic_R.otf");
+}
+
 p {
     color: var(--colorTextDefault);
-    font-family: "FritzQuadrata";
+    font-family: "DinProLight";
 }
 
 .highlighted {
@@ -9,7 +19,7 @@ p {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    font-family: "FritzQuadrata";
+    font-family: "FrontinSansCyrillic";
     color: var(--colorTextDefault);
 }
 
@@ -28,5 +38,6 @@ a {
 }
 
 a:hover {
-    color: var(--colorTextLinkHover)
+    color: var(--colorTextLinkHover);
+    text-decoration: none;
 }

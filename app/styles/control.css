@@ -1,9 +1,80 @@
 .chart {
     padding-bottom: 0.5rem;
-    /* transition: height 200ms, transform 200ms; */
+    max-height: 500px;
 }
 
-.btn {
+.chart-control-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.chart-control-container .label {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.chart-control-container-vertical {
+    flex-direction: column;
+}
+
+.chart-control-container-vertical div:last-child {
+    margin-top: 2px;
+}
+
+.chart-minimum-input {
+    margin-left: 1rem;
+    width: 3rem;
+    text-align: end;
+}
+
+.chart-guild-filter-input {
+    margin-left: 1rem;
+    width: 20rem;
+}
+
+.btn, input {
     background-color: var(--colorButtonBackground);
     border: 1px solid var(--colorButtonBorder);
+    color: var(--colorTextDefault);
+    transition: 200ms;
+}
+
+input {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dropdown-icon {
+    margin-left: 0.5rem;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: var(--colorButtonBackground);
+    border: 1px solid var(--colorButtonBorder);
+}
+
+.dropdown-item {
+    color: var(--colorTextDefault);
+}
+
+.dropdown-item:hover {
+    background-color: var(--colorButtonBorder);
+    color: var(--colorTextHighlight);
+}
+
+.dropdown-item.active {
+    background-color: var(--colorTextHighlight);
+    background-color: var(--colorButtonBorder);
+}
+
+.dropdown-divider {
+    border-color: var(--colorButtonBorder);
 }

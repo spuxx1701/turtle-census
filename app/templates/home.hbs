@@ -2,10 +2,20 @@
 <a href="https://turtle-wow.org" class="logo">
     <img class="logo" src="/assets/turtle-wow-logo.png" />
 </a>
-<h1 class="title text-center">CenSUS</h1>
-<Panel @size="medium" @title="Class frequency">
-    <Chart::Class @data={{@model.characters}} @chartId="chart-classes" />
-</Panel>
-<Panel @size="medium" @title="Guild member counts">
-    <Chart::Guild @data={{@model.guilds}} @chartId="chart-guilds" />
+<h1 class="title text-center">Census</h1>
+<Panel @size="medium" @title="Welcome!">
+    <p class="full-width">This is the Turtle WoW Census website. Do you want to know what the faction balance looks like
+        on? Or which race is the most popular? Do you want to see what's the class composition in your guild? You've
+        come to the right place!</p>
+    <h5>A few things to keep in mind:</h5>
+    <p class="label full-width">
+        - All data is being gathered by a single person using <a
+            href="https://github.com/Lexiebean/CensusPlusTurtle">CensusPlusTurtle</a>
+        <br />
+        - Characters that have been inactive for a longer period of time are not included
+        <br />
+        - Uploading census data is currently not supported
+    </p>
+    <p class="label full-width">Enjoy browsing! For feedback, hit me up on Turtle WoW Discord. My nickname is @Coun
+        Ironhoof.</p>
 </Panel>

@@ -1,5 +1,8 @@
 <div class="panel panel-{{@size}} flex-column">
     <h3 class="panel-title text-center">{{@title}}</h3>
+    {{#if @subTitle}}
+    <p class="label">{{@subTitle}}</p>
+    {{/if}}
     <div class="panel-separator" />
     {{yield}}
 </div>

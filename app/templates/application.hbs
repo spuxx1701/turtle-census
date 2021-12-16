@@ -1,12 +1,39 @@
 {{page-title "TurtleCensus"}}
 <div class="header-toolbar">
-    <Spacer />
-    {{!-- <a href="https://turtle-wow.org">
-        <img class="header-turtle-logo" src="/assets/turtle-wow-logo.png" alt="Turtle WoW Website" />
-    </a> --}}
-    <a href="https://github.com/LeopoldHock/turtle-census">
-        <FaIcon @icon="github" @prefix="fab" @size="2x" />
-    </a>
+    <div class="header-container">
+        <BsDropdown @tagName="span" as |dd|>
+            <dd.button>
+                Browse charts
+                <span class="caret"></span>
+                <FaIcon @icon="chart-pie" class="dropdown-icon" />
+            </dd.button>
+            <dd.menu as |menu|>
+                <menu.item>
+                    <menu.link-to @route="home">Home</menu.link-to>
+                </menu.item>
+                <menu.divider />
+                <menu.item>
+                    <menu.link-to @route="faction-balance">Faction balance</menu.link-to>
+                </menu.item>
+                <menu.item>
+                    <menu.link-to @route="race-composition">Race composition</menu.link-to>
+                </menu.item>
+                <menu.item>
+                    <menu.link-to @route="class-composition">Class composition</menu.link-to>
+                </menu.item>
+                <menu.item>
+                    <menu.link-to @route="level-composition">Level composition</menu.link-to>
+                </menu.item>
+                <menu.item>
+                    <menu.link-to @route="guild-members">Guild sizes</menu.link-to>
+                </menu.item>
+            </dd.menu>
+        </BsDropdown>
+        <Spacer />
+        <a href="https://github.com/LeopoldHock/turtle-census">
+            <FaIcon @icon="github" @prefix="fab" @size="2x" />
+        </a>
+    </div>
 </div>
 <div class="outlet-container">
     {{outlet}}

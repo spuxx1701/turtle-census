@@ -8,4 +8,9 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   this.route('home', { path: '/' });
+  this.route('class-composition');
+  this.route('guild-members');
+  this.route('race-composition');
+  this.route('level-composition');
+  this.route('faction-balance');
 });

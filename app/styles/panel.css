@@ -10,13 +10,22 @@
     align-items: center;
 }
 
+.full-width {
+    width: 100%;
+}
+
+.panel-large {
+    width: 800px;
+    max-width: 100%;
+}
+
 .panel-medium {
     width: 650px;
     max-width: 100%;
 }
 
 .panel-small {
-    width: 500px;
+    width: 400px;
     max-width: 100%;
 }
 

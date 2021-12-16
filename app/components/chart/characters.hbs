@@ -1,0 +1,58 @@
+<canvas id="{{@chartId}}" class="chart" {{did-insert this.initialize}}></canvas>
+<BsButtonGroup @value={{this.chartType}} @type="radio" @onChange={{this.onTypeChange}} as |bg|>
+    <bg.button @value="pie">Pie</bg.button>
+    <bg.button @value="doughnut">Doughnut</bg.button>
+    <bg.button @value="bar">Bar</bg.button>
+</BsButtonGroup>
+{{#if this.useFactionFilter}}
+<div class="chart-control-container">
+    <BsButtonGroup @value={{this.factionFilter}} @type="radio" @onChange={{this.onFactionFilterChange}} as |bg|>
+        <bg.button @value={{undefined}}>All</bg.button>
+        <bg.button @value="Horde">Horde</bg.button>
+        <bg.button @value="Alliance">Alliance</bg.button>
+    </BsButtonGroup>
+</div>
+{{/if}}
+{{#if this.useRaceFilter}}
+<div class="chart-control-container chart-control-container-vertical">
+    <BsButtonGroup @value={{this.raceFilter}} @type="radio" @onChange={{this.onRaceFilterChange}} as |bg|>
+        <bg.button @value={{undefined}}>All</bg.button>
+        <bg.button @value="Goblin">Goblin</bg.button>
+        <bg.button @value="Orc">Orc</bg.button>
+        <bg.button @value="Tauren">Tauren</bg.button>
+        <bg.button @value="Troll">Troll</bg.button>
+        <bg.button @value="Undead">Undead</bg.button>
+    </BsButtonGroup>
+    <BsButtonGroup @value={{this.raceFilter}} @type="radio" @onChange={{this.onRaceFilterChange}} as |bg|>
+        <bg.button @value="Dwarf">Dwarf</bg.button>
+        <bg.button @value="Gnome">Gnome</bg.button>
+        <bg.button @value="High Elf">High Elf</bg.button>
+        <bg.button @value="Human">Human</bg.button>
+        <bg.button @value="Night Elf">Night Elf</bg.button>
+    </BsButtonGroup>
+</div>
+{{/if}}
+{{#if this.useClassFilter}}
+<div class="chart-control-container chart-control-container-vertical">
+    <BsButtonGroup @value={{this.classFilter}} @type="radio" @onChange={{this.onClassFilterChange}} as |bg|>
+        <bg.button @value={{undefined}}>All</bg.button>
+        <bg.button @value="Druid">Druid</bg.button>
+        <bg.button @value="Hunter">Hunter</bg.button>
+        <bg.button @value="Mage">Mage</bg.button>
+        <bg.button @value="Paladin">Paladin</bg.button>
+    </BsButtonGroup>
+    <BsButtonGroup @value={{this.classFilter}} @type="radio" @onChange={{this.onClassFilterChange}} as |bg|>
+        <bg.button @value="Priest">Priest</bg.button>
+        <bg.button @value="Rogue">Rogue</bg.button>
+        <bg.button @value="Shaman">Shaman</bg.button>
+        <bg.button @value="Warlock">Warlock</bg.button>
+        <bg.button @value="Warrior">Warrior</bg.button>
+    </BsButtonGroup>
+</div>
+{{/if}}
+{{#if this.useGuildFilter}}
+<div class="chart-control-container">
+    <input class="chart-guild-filter-input" value={{this.guildFilter}} {{on "change" this.onGuildFilterChange}}
+        placeholder="Enter guild name..." />
+</div>
+{{/if}}

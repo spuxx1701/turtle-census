@@ -1,26 +1,21 @@
 :root {
-    --headerToolbarHeight: 40px;
-    --colorPanelBackground: #2c2c2c80;
+    --headerToolbarHeight: 44px;
+    --colorPanelBackground: #1a1a1a80;
     --colorPanelBorder: #5F5F5F;
     --colorPageBackground: #1b1b1b;
-    --colorButtonBackground: #2c2c2c80;
+    --colorButtonBackground: #1a1a1a;
     --colorButtonBorder: #5F5F5F;
     --colorTextDefault: #f1f1f1;
     --colorTextLabel: #c1c1c1;
     --colorTextHighlight: #ffffff;
     --colorTextLink: #498082;
-    --colorTextLinkHover: #385353;
+    --colorTextLinkHover: #436969;
 }
 
 body {
     color: var(--colorTextDefault);
     background-color: var(--colorPageBackground);
     background-image: url("/assets/background.jpg");
-}
-
-@font-face {
-    font-family: 'FritzQuadrata';
-    src: url("/assets//friz-quadrata-regular.ttf");
 }
 
 .ember-application {
@@ -40,7 +35,22 @@ body {
     position: relative;
     z-index: 4;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
     justify-content: space-between;
+}
+
+.header-github {
+    color: var(--colorTextLabel);
+}
+
+.header-github:hover {
+    color: var(--colorButtonBorder);
 }
 
 .outlet-container {
