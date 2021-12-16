@@ -22,6 +22,11 @@ module.exports = function (environment) {
       // when it is created
     },
   };
+  ENV['ember-meta'] = {
+    description: "Do you want to know what the faction balance looks like on? Or which race is the most popular? Do you want to see what's the class composition in your guild? Visit the Turtle WoW Census Website!",
+    title: 'Turtle WoW Census',
+    url: 'https://turtle-census.org'
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
