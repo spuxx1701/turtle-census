@@ -50,6 +50,18 @@
     </BsButtonGroup>
 </div>
 {{/if}}
+{{#if this.useLevelFilter}}
+<div class="chart-control-container">
+    <p class="label">Level</p>
+    <input class="chart-level-input" inputmode="numeric" pattern="[0-9]*" min={{this.config.constants.levelMin}}
+        max={{this.config.constants.levelMax}} value={{this.levelFilterMin}} {{on "change"
+        this.onLevelFilterMinChange}} />
+    <p class="label">-</p>
+    <input class="chart-level-input" inputmode="numeric" pattern="[0-9]*" min={{this.config.constants.levelMin}}
+        max={{this.config.constants.levelMax}} value={{this.levelFilterMax}} {{on "change"
+        this.onLevelFilterMaxChange}} />
+</div>
+{{/if}}
 {{#if this.useGuildFilter}}
 <div class="chart-control-container">
     <input class="chart-guild-filter-input" value={{this.guildFilter}} {{on "change" this.onGuildFilterChange}}

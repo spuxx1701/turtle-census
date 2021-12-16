@@ -31,6 +31,13 @@
     text-align: end;
 }
 
+.chart-level-input {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 2rem;
+    text-align: end;
+}
+
 .chart-guild-filter-input {
     margin-left: 1rem;
     width: 20rem;

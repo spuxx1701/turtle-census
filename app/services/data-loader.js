@@ -61,7 +61,7 @@ export default class DataLoaderService extends Service {
                             race: race.name,
                             class: classObj.name,
                             level: characterNode.value.fields.find(element => element.key.raw === this.config.constants.characterPropertyKeys.level).value.value,
-                            guild: this._parseRawString(characterNode.value.fields.find(element => element.key.raw === this.config.constants.characterPropertyKeys.guild).value.raw),
+                            guild: this._parseRawString(characterNode.value.fields.find(element => element.key.raw === this.config.constants.characterPropertyKeys.guild)?.value.raw),
                             lastUpdated: this._parseRawDate(characterNode.value.fields.find(element => element.key.raw === this.config.constants.characterPropertyKeys.lastUpdated).value.raw),
                         };
                         this._determineFaction(character);

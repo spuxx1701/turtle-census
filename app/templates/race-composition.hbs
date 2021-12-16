@@ -1,6 +1,6 @@
 {{page-title "Race composition"}}
 <Panel @size="large" @title="RACE COMPOSITION">
     <Chart::Characters @chartId="chart-class-composition" @chartType="bar" @key="race" @characters={{@model.characters}}
-        @categories={{@model.categories}} @useFactionFilter={{true}} @useClassFilter={{true}}
+        @categories={{@model.categories}} @useFactionFilter={{true}} @useClassFilter={{true}} @useLevelFilter={{true}}
         @useGuildFilter={{true}} />
 </Panel>

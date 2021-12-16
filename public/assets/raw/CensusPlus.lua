@@ -9,11 +9,11 @@ CensusPlus_Database = {
 						["Update"] = "12-14-2021",
 					},
 					["Members"] = {
-						["Zagresh"] = {
-							["RankIndex"] = 5,
-							["Level"] = 10,
-							["Class"] = "Warrior",
-							["Rank"] = "Security",
+						["Xadra"] = {
+							["RankIndex"] = 6,
+							["Level"] = 22,
+							["Class"] = "Warlock",
+							["Rank"] = "Partner",
 						},
 						["Brock"] = {
 							["RankIndex"] = 5,
@@ -87,23 +87,17 @@ CensusPlus_Database = {
 							["Class"] = "Hunter",
 							["Rank"] = "Merchant",
 						},
-						["Zachary"] = {
-							["RankIndex"] = 4,
-							["Level"] = 42,
-							["Class"] = "Priest",
-							["Rank"] = "Merchant",
-						},
-						["Xadra"] = {
-							["RankIndex"] = 6,
-							["Level"] = 22,
-							["Class"] = "Warlock",
-							["Rank"] = "Partner",
-						},
 						["Parhaus"] = {
 							["RankIndex"] = 2,
 							["Level"] = 60,
 							["Class"] = "Hunter",
 							["Rank"] = "Management",
+						},
+						["Brigher"] = {
+							["RankIndex"] = 5,
+							["Level"] = 42,
+							["Class"] = "Warrior",
+							["Rank"] = "Security",
 						},
 						["Dugu"] = {
 							["RankIndex"] = 5,
@@ -111,17 +105,17 @@ CensusPlus_Database = {
 							["Class"] = "Warrior",
 							["Rank"] = "Security",
 						},
+						["Chaunala"] = {
+							["RankIndex"] = 4,
+							["Level"] = 35,
+							["Class"] = "Shaman",
+							["Rank"] = "Merchant",
+						},
 						["Orcas"] = {
 							["RankIndex"] = 6,
 							["Level"] = 40,
 							["Class"] = "Mage",
 							["Rank"] = "Partner",
-						},
-						["Zogan"] = {
-							["RankIndex"] = 3,
-							["Level"] = 16,
-							["Class"] = "Rogue",
-							["Rank"] = "Administration",
 						},
 						["Zangir"] = {
 							["RankIndex"] = 7,
@@ -129,16 +123,16 @@ CensusPlus_Database = {
 							["Class"] = "Hunter",
 							["Rank"] = "Worker",
 						},
+						["Zachary"] = {
+							["RankIndex"] = 4,
+							["Level"] = 42,
+							["Class"] = "Priest",
+							["Rank"] = "Merchant",
+						},
 						["Delquse"] = {
 							["RankIndex"] = 3,
 							["Level"] = 13,
 							["Class"] = "Mage",
-							["Rank"] = "Administration",
-						},
-						["Thondir"] = {
-							["RankIndex"] = 3,
-							["Level"] = 6,
-							["Class"] = "Paladin",
 							["Rank"] = "Administration",
 						},
 						["Keen"] = {
@@ -146,6 +140,12 @@ CensusPlus_Database = {
 							["Level"] = 60,
 							["Class"] = "Priest",
 							["Rank"] = "Merchant",
+						},
+						["Thondir"] = {
+							["RankIndex"] = 3,
+							["Level"] = 6,
+							["Class"] = "Paladin",
+							["Rank"] = "Administration",
 						},
 						["Coun"] = {
 							["RankIndex"] = 0,
@@ -159,11 +159,11 @@ CensusPlus_Database = {
 							["Class"] = "Mage",
 							["Rank"] = "Security",
 						},
-						["Chaunala"] = {
-							["RankIndex"] = 4,
-							["Level"] = 35,
-							["Class"] = "Shaman",
-							["Rank"] = "Merchant",
+						["Zogan"] = {
+							["RankIndex"] = 3,
+							["Level"] = 16,
+							["Class"] = "Rogue",
+							["Rank"] = "Administration",
 						},
 						["Rondras"] = {
 							["RankIndex"] = 1,
@@ -171,9 +171,9 @@ CensusPlus_Database = {
 							["Class"] = "Warrior",
 							["Rank"] = "Co-Founder",
 						},
-						["Brigher"] = {
+						["Zagresh"] = {
 							["RankIndex"] = 5,
-							["Level"] = 42,
+							["Level"] = 10,
 							["Class"] = "Warrior",
 							["Rank"] = "Security",
 						},
@@ -192,17 +192,18 @@ CensusPlus_Database = {
 		["AutoCensusTimer"] = 1800,
 		["AutoCensus"] = true,
 		["ClientLocale"] = "enUS",
-		["CensusButtonPosition"] = 360,
+		["Locale"] = "US",
 		["CensusButtonShown"] = 1,
 		["Version"] = "1.0.0",
 		["LoginServer"] = "logon.turtle-wow.org",
-		["Locale"] = "US",
+		["CensusButtonPosition"] = 360,
 		["MiniStart"] = 1,
 	},
 	["TimesPlus"] = {
 		["Turtle WoW"] = {
 			["Horde"] = {
 				["2021-12-14&21:35:00"] = "60&81&51&52&57&40&91&40&66&0&0&0",
+				["2021-12-16&10:53:00"] = "31&40&24&18&20&16&36&19&29&0&0&0",
 				["2021-12-14&21:2:00"] = "56&77&67&49&64&41&91&40&71&0&0&0",
 				["2021-12-14&19:57:00"] = "58&87&69&61&68&28&85&40&72&0&21&0",
 				["2021-12-14&20:30:00"] = "53&87&59&64&64&37&91&43&67&0&0&0",
@@ -217,10 +218,20 @@ CensusPlus_Database = {
 			["Horde"] = {
 				["High Elf"] = {
 					["Warrior"] = {
-						["Malveron"] = {
-							[1] = 60,
-							[2] = "Macrochelys",
+						["Trevadriel"] = {
+							[1] = 31,
+							[2] = "",
 							[3] = "2021-12-14",
+						},
+						["Metalotus"] = {
+							[1] = 8,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Hondaprelude"] = {
+							[1] = 6,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Zaas"] = {
 							[1] = 60,
@@ -232,9 +243,9 @@ CensusPlus_Database = {
 							[2] = "Heirs of Quel'thalas",
 							[3] = "2021-12-14",
 						},
-						["Delf"] = {
-							[1] = 8,
-							[2] = "The Scourge",
+						["Nymun"] = {
+							[1] = 14,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Arothskydust"] = {
@@ -242,9 +253,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Trevadriel"] = {
-							[1] = 31,
-							[2] = "",
+						["Malveron"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
 						["Veylan"] = {
@@ -257,9 +268,9 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Nymun"] = {
-							[1] = 14,
-							[2] = "Newcomers",
+						["Delf"] = {
+							[1] = 8,
+							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
 						["Zangatsu"] = {
@@ -307,7 +318,7 @@ CensusPlus_Database = {
 						["Rag"] = {
 							[1] = 60,
 							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Davison"] = {
 							[1] = 22,
@@ -340,9 +351,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Camperjoe"] = {
-							[1] = 33,
+							[1] = 36,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Alldin"] = {
 							[1] = 22,
@@ -379,20 +390,40 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Aeru"] = {
-							[1] = 44,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
+						["Windx"] = {
+							[1] = 6,
+							[2] = "",
+							[3] = "2021-12-16",
 						},
 						["Darkangels"] = {
 							[1] = 31,
 							[2] = "Rush n Attack",
 							[3] = "2021-12-14",
 						},
+						["Virtue"] = {
+							[1] = 47,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Realdeal"] = {
+							[1] = 2,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Loktuspush"] = {
 							[1] = 60,
 							[2] = "Heirs of Quel'thalas",
 							[3] = "2021-12-14",
+						},
+						["Durispaladin"] = {
+							[1] = 45,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Andorhall"] = {
+							[1] = 43,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Bianthis"] = {
 							[1] = 25,
@@ -402,11 +433,16 @@ CensusPlus_Database = {
 						["Isiliana"] = {
 							[1] = 60,
 							[2] = "Heirs of Quel'thalas",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Windx"] = {
+						["Vortexia"] = {
 							[1] = 6,
 							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Aeru"] = {
+							[1] = 44,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Lodamart"] = {
@@ -414,15 +450,15 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Urielaslan"] = {
-							[1] = 22,
+						["Rumera"] = {
+							[1] = 27,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Vortexia"] = {
-							[1] = 6,
-							[2] = "",
-							[3] = "2021-12-14",
+						["Alexandros"] = {
+							[1] = 60,
+							[2] = "Heirs of Quel'thalas",
+							[3] = "2021-12-16",
 						},
 						["Mightyhealon"] = {
 							[1] = 40,
@@ -444,8 +480,8 @@ CensusPlus_Database = {
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
-						["Rumera"] = {
-							[1] = 27,
+						["Urielaslan"] = {
+							[1] = 22,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -466,14 +502,14 @@ CensusPlus_Database = {
 							[2] = "Grey Haven",
 							[3] = "2021-12-14",
 						},
-						["Stellatilde"] = {
-							[1] = 54,
-							[2] = "Still Alive",
+						["Blythe"] = {
+							[1] = 33,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Chaux"] = {
-							[1] = 21,
-							[2] = "Newcomers",
+						["Melias"] = {
+							[1] = 5,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Sachikocz"] = {
@@ -516,9 +552,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Blythe"] = {
-							[1] = 33,
-							[2] = "",
+						["Stellatilde"] = {
+							[1] = 54,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Atrarosa"] = {
@@ -526,9 +562,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Melias"] = {
-							[1] = 5,
-							[2] = "Still Alive",
+						["Chaux"] = {
+							[1] = 21,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -548,14 +584,14 @@ CensusPlus_Database = {
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
-						["Savini"] = {
-							[1] = 39,
-							[2] = "Newcomers",
+						["Sylori"] = {
+							[1] = 42,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Pyria"] = {
-							[1] = 51,
-							[2] = "Heirs of Quel'thalas",
+						["Sugarbaby"] = {
+							[1] = 14,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Ashanit"] = {
@@ -563,14 +599,19 @@ CensusPlus_Database = {
 							[2] = "Heirs of Quel'thalas",
 							[3] = "2021-12-14",
 						},
-						["Amittai"] = {
-							[1] = 16,
-							[2] = "Newcomers",
+						["Kordelya"] = {
+							[1] = 38,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Aelein"] = {
-							[1] = 14,
-							[2] = "",
+						["Kyria"] = {
+							[1] = 21,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Irenne"] = {
+							[1] = 18,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Kiolandi"] = {
@@ -593,6 +634,11 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
+						["Chiara"] = {
+							[1] = 5,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Rayh"] = {
 							[1] = 10,
 							[2] = "Anachronistic",
@@ -602,6 +648,16 @@ CensusPlus_Database = {
 							[1] = 60,
 							[2] = "",
 							[3] = "2021-12-14",
+						},
+						["Shazza"] = {
+							[1] = 7,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Nirana"] = {
+							[1] = 38,
+							[2] = "",
+							[3] = "2021-12-16",
 						},
 						["Cannia"] = {
 							[1] = 46,
@@ -613,10 +669,35 @@ CensusPlus_Database = {
 							[2] = "Heirs of Quel'thalas",
 							[3] = "2021-12-14",
 						},
-						["Salma"] = {
-							[1] = 4,
+						["Hunthard"] = {
+							[1] = 60,
+							[2] = "The Argent Vanguard",
+							[3] = "2021-12-16",
+						},
+						["Hugatree"] = {
+							[1] = 16,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
+						},
+						["Savini"] = {
+							[1] = 39,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Corvino"] = {
+							[1] = 6,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Thelove"] = {
+							[1] = 32,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Nekzulplex"] = {
+							[1] = 23,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Natala"] = {
 							[1] = 8,
@@ -633,14 +714,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Blazee"] = {
-							[1] = 44,
-							[2] = "Equilibrium",
+						["Tohka"] = {
+							[1] = 43,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Sugarbaby"] = {
-							[1] = 14,
-							[2] = "Still Alive",
+						["Pyria"] = {
+							[1] = 51,
+							[2] = "Heirs of Quel'thalas",
 							[3] = "2021-12-14",
 						},
 						["Kamelopard"] = {
@@ -648,14 +729,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Tohka"] = {
-							[1] = 43,
-							[2] = "Newcomers",
+						["Salma"] = {
+							[1] = 4,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Sylori"] = {
-							[1] = 42,
-							[2] = "Still Alive",
+						["Carbonasso"] = {
+							[1] = 8,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Graycriss"] = {
@@ -671,21 +752,21 @@ CensusPlus_Database = {
 						["Silwen"] = {
 							[1] = 35,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Kip"] = {
 							[1] = 60,
 							[2] = "Schmetterlingsbrigade",
 							[3] = "2021-12-14",
 						},
-						["Carbonasso"] = {
-							[1] = 8,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Hugatree"] = {
-							[1] = 16,
+						["Crazybutt"] = {
+							[1] = 32,
 							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Blazee"] = {
+							[1] = 44,
+							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
 						["Karek"] = {
@@ -693,19 +774,19 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Kordelya"] = {
-							[1] = 38,
+						["Durishunter"] = {
+							[1] = 55,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Amittai"] = {
+							[1] = 16,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Aelein"] = {
+							[1] = 14,
 							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Irenne"] = {
-							[1] = 18,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Nekzulplex"] = {
-							[1] = 22,
-							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Giggly"] = {
@@ -745,24 +826,19 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Calcheal"] = {
+							[1] = 33,
+							[2] = "Aqua",
+							[3] = "2021-12-16",
+						},
+						["Grindeloth"] = {
+							[1] = 31,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Caoimhe"] = {
 							[1] = 60,
 							[2] = "Church of the Turtle",
-							[3] = "2021-12-14",
-						},
-						["Netram"] = {
-							[1] = 8,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Connald"] = {
-							[1] = 33,
-							[2] = "Anachronistic",
-							[3] = "2021-12-14",
-						},
-						["Scarazanzo"] = {
-							[1] = 23,
-							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Ishizu"] = {
@@ -770,14 +846,29 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
+						["Scarsdale"] = {
+							[1] = 8,
+							[2] = "The Scourge",
+							[3] = "2021-12-14",
+						},
+						["Scarazanzo"] = {
+							[1] = 23,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Netram"] = {
+							[1] = 8,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
 						["Teldaroth"] = {
 							[1] = 33,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Scarsdale"] = {
-							[1] = 8,
-							[2] = "The Scourge",
+						["Connald"] = {
+							[1] = 33,
+							[2] = "Anachronistic",
 							[3] = "2021-12-14",
 						},
 						["Lilyanna"] = {
@@ -795,15 +886,15 @@ CensusPlus_Database = {
 							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
-						["Mirusa"] = {
-							[1] = 44,
+						["Cheaux"] = {
+							[1] = 3,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Toddhoward"] = {
 							[1] = 60,
 							[2] = "Traveler",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Bubub"] = {
 							[1] = 14,
@@ -825,8 +916,8 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Cheaux"] = {
-							[1] = 3,
+						["Mirusa"] = {
+							[1] = 44,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -867,8 +958,8 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Xulzan"] = {
-							[1] = 3,
+						["Morrdecai"] = {
+							[1] = 12,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -915,7 +1006,7 @@ CensusPlus_Database = {
 						["Narylia"] = {
 							[1] = 57,
 							[2] = "Golden Moon",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Dagothur"] = {
 							[1] = 33,
@@ -942,9 +1033,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Fonewearl"] = {
-							[1] = 36,
-							[2] = "Still Alive",
+						["Nyah"] = {
+							[1] = 60,
+							[2] = "The Spunky Knights",
 							[3] = "2021-12-14",
 						},
 						["Algid"] = {
@@ -958,9 +1049,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Phey"] = {
-							[1] = 16,
+							[1] = 18,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Mystria"] = {
 							[1] = 60,
@@ -977,6 +1068,21 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
+						["Kealthas"] = {
+							[1] = 35,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Kisses"] = {
+							[1] = 46,
+							[2] = "Golden Moon",
+							[3] = "2021-12-16",
+						},
+						["Ranawen"] = {
+							[1] = 6,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Fallka"] = {
 							[1] = 39,
 							[2] = "Newcomers",
@@ -987,9 +1093,9 @@ CensusPlus_Database = {
 							[2] = "Molten Core Salvage Ops",
 							[3] = "2021-12-14",
 						},
-						["Nyah"] = {
-							[1] = 60,
-							[2] = "The Spunky Knights",
+						["Fonewearl"] = {
+							[1] = 36,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Fastell"] = {
@@ -1002,13 +1108,13 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Lilyne"] = {
-							[1] = 60,
+						["Xulzan"] = {
+							[1] = 3,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Morrdecai"] = {
-							[1] = 12,
+						["Lilyne"] = {
+							[1] = 60,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -1016,19 +1122,24 @@ CensusPlus_Database = {
 				},
 				["Orc"] = {
 					["Warrior"] = {
-						["Rlrdjmkbngjw"] = {
-							[1] = 20,
-							[2] = "",
-							[3] = "2021-12-14",
+						["Benito"] = {
+							[1] = 60,
+							[2] = "Only Easy Shields",
+							[3] = "2021-12-16",
 						},
-						["Rekta"] = {
-							[1] = 11,
+						["Kulesivert"] = {
+							[1] = 30,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Valkasar"] = {
-							[1] = 54,
-							[2] = "Heirs of Quel'thalas",
+						["Krankschaft"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-14",
+						},
+						["Hakuhzwo"] = {
+							[1] = 8,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Garroshchad"] = {
@@ -1041,6 +1152,11 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Sorgis"] = {
+							[1] = 50,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Jfnani"] = {
 							[1] = 38,
 							[2] = "Golden Moon",
@@ -1051,14 +1167,24 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Gorfrunch"] = {
+							[1] = 22,
+							[2] = "Blacktooth Grin",
+							[3] = "2021-12-14",
+						},
+						["Drakini"] = {
+							[1] = 1,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Fettcko"] = {
+							[1] = 15,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Task"] = {
 							[1] = 60,
 							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
-						},
-						["Handlebars"] = {
-							[1] = 1,
-							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Sylv"] = {
@@ -1066,14 +1192,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Hakuhzwo"] = {
-							[1] = 8,
-							[2] = "Still Alive",
+						["Glayve"] = {
+							[1] = 10,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Gorfrunch"] = {
-							[1] = 22,
-							[2] = "Blacktooth Grin",
+						["Valkasar"] = {
+							[1] = 54,
+							[2] = "Heirs of Quel'thalas",
 							[3] = "2021-12-14",
 						},
 						["Jenicot"] = {
@@ -1081,15 +1207,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Kulesivert"] = {
-							[1] = 30,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Drakini"] = {
-							[1] = 1,
+						["Rlrdjmkbngjw"] = {
+							[1] = 20,
 							[2] = "",
 							[3] = "2021-12-14",
+						},
+						["Nuoc"] = {
+							[1] = 1,
+							[3] = "2021-12-16",
+							[4] = 0,
+							[5] = "2021-12-16&0&0",
+							[6] = 0,
+							[7] = "2021-12-16",
+							[8] = 0,
 						},
 						["Schwarz"] = {
 							[1] = 60,
@@ -1104,20 +1234,20 @@ CensusPlus_Database = {
 						["Dis"] = {
 							[1] = 17,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Hoppa"] = {
 							[1] = 60,
 							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
-						["Krankschaft"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Rekta"] = {
+							[1] = 11,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Glayve"] = {
-							[1] = 10,
+						["Handlebars"] = {
+							[1] = 1,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -1148,14 +1278,29 @@ CensusPlus_Database = {
 							[2] = "Blacktooth Grin",
 							[3] = "2021-12-14",
 						},
-						["Blackfang"] = {
-							[1] = 8,
+						["Spongicus"] = {
+							[1] = 4,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
+						},
+						["Blackfang"] = {
+							[1] = 15,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Kugg"] = {
+							[1] = 16,
+							[2] = "",
+							[3] = "2021-12-16",
 						},
 						["Briefkarsten"] = {
 							[1] = 1,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Mokrim"] = {
+							[1] = 51,
+							[2] = "Golden Moon",
 							[3] = "2021-12-14",
 						},
 						["Sinus"] = {
@@ -1168,10 +1313,10 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Mokrim"] = {
-							[1] = 51,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
+						["Painthuffer"] = {
+							[1] = 54,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Nyxie"] = {
 							[1] = 24,
@@ -1200,45 +1345,20 @@ CensusPlus_Database = {
 							[2] = "Hand of Wrath",
 							[3] = "2021-12-14",
 						},
-						["Gromtar"] = {
-							[1] = 60,
-							[2] = "Rush n Attack",
-							[3] = "2021-12-14",
-						},
 						["Nayulz"] = {
 							[1] = 50,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Schaminatos"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
-						},
-						["Bedlam"] = {
-							[1] = 60,
-							[2] = "Dreadskull Clan",
-							[3] = "2021-12-14",
-						},
-						["Kreeg"] = {
-							[1] = 19,
+						["Thorgolz"] = {
+							[1] = 22,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Greebo"] = {
-							[1] = 45,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Thredd"] = {
-							[1] = 13,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Valkah"] = {
-							[1] = 21,
-							[2] = "Blacktooth Grin",
-							[3] = "2021-12-14",
+						["Cky"] = {
+							[1] = 2,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Skorrak"] = {
 							[1] = 9,
@@ -1250,34 +1370,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Draya"] = {
-							[1] = 20,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Gargado"] = {
-							[1] = 24,
-							[2] = "Nephilim",
-							[3] = "2021-12-14",
-						},
 						["Gorlash"] = {
 							[1] = 33,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Junna"] = {
-							[1] = 60,
-							[2] = "Warsong Outriders",
-							[3] = "2021-12-14",
-						},
 						["Granktef"] = {
 							[1] = 32,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Wurrzaq"] = {
-							[1] = 22,
-							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Ozngrom"] = {
@@ -1290,20 +1390,10 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Ogrosh"] = {
-							[1] = 42,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Thorgolz"] = {
-							[1] = 22,
+						["Rek"] = {
+							[1] = 16,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Kallops"] = {
-							[1] = 27,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Hideouslass"] = {
 							[1] = 30,
@@ -1315,14 +1405,104 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Ogga"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
+						},
+						["Voidoom"] = {
+							[1] = 60,
+							[2] = "Nephilim",
+							[3] = "2021-12-14",
+						},
+						["Schaminatos"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-14",
+						},
+						["Gromtar"] = {
+							[1] = 60,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
+						},
+						["Bedlam"] = {
+							[1] = 60,
+							[2] = "Dreadskull Clan",
+							[3] = "2021-12-14",
+						},
+						["Greebo"] = {
+							[1] = 45,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
+						["Draya"] = {
+							[1] = 20,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Sturmgewehr"] = {
+							[1] = 39,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
+						},
+						["Junna"] = {
+							[1] = 60,
+							[2] = "Warsong Outriders",
+							[3] = "2021-12-16",
+						},
+						["Thrallcousin"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
+						},
+						["Wurrzaq"] = {
+							[1] = 22,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Doona"] = {
+							[1] = 21,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Jawolf"] = {
+							[1] = 27,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Ogrosh"] = {
+							[1] = 44,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Kreeg"] = {
+							[1] = 19,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Katar"] = {
+							[1] = 4,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Flexbert"] = {
+							[1] = 37,
+							[2] = "Nephilim",
+							[3] = "2021-12-14",
+						},
+						["Thredd"] = {
+							[1] = 13,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
 						["Snowguzzler"] = {
 							[1] = 1,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Ogga"] = {
-							[1] = 60,
-							[2] = "Traveler",
+						["Kallops"] = {
+							[1] = 27,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Skagis"] = {
@@ -1330,27 +1510,32 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Voidoom"] = {
-							[1] = 60,
+						["Gargado"] = {
+							[1] = 24,
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
-						["Flexbert"] = {
-							[1] = 37,
-							[2] = "Nephilim",
+						["Valkah"] = {
+							[1] = 21,
+							[2] = "Blacktooth Grin",
 							[3] = "2021-12-14",
 						},
 					},
 					["Rogue"] = {
+						["Gop"] = {
+							[1] = 48,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
+						},
 						["Gurublade"] = {
 							[1] = 60,
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
 						["Wazzoko"] = {
-							[1] = 23,
+							[1] = 26,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Zodhazul"] = {
 							[1] = 23,
@@ -1375,9 +1560,14 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Tuzk"] = {
-							[1] = 50,
+							[1] = 52,
 							[2] = "Rush n Attack",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
+						},
+						["Kerix"] = {
+							[1] = 33,
+							[2] = "Nephilim",
+							[3] = "2021-12-16",
 						},
 						["Virushunter"] = {
 							[1] = 55,
@@ -1388,6 +1578,11 @@ CensusPlus_Database = {
 							[1] = 60,
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
+						},
+						["Enouthspi"] = {
+							[1] = 47,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Fbees"] = {
 							[1] = 11,
@@ -1409,10 +1604,25 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Zugrrakh"] = {
+							[1] = 27,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Chil"] = {
+							[1] = 55,
+							[2] = "Sanctuary",
+							[3] = "2021-12-14",
+						},
 						["Beastwood"] = {
 							[1] = 59,
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
+						},
+						["Noisette"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
 						},
 						["Naar"] = {
 							[1] = 45,
@@ -1424,19 +1634,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Thraga"] = {
-							[1] = 18,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Marki"] = {
 							[1] = 27,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Chil"] = {
-							[1] = 55,
-							[2] = "Sanctuary",
+						["Thraga"] = {
+							[1] = 18,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 					},
@@ -1480,6 +1685,11 @@ CensusPlus_Database = {
 							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
+						["Myaa"] = {
+							[1] = 23,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Bilban"] = {
 							[1] = 25,
 							[2] = "Still Alive",
@@ -1497,15 +1707,20 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Sweettea"] = {
-							[1] = 9,
-							[2] = "Still Alive",
+						["Contagia"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Fizzbit"] = {
 							[1] = 51,
 							[2] = "Schmetterlingsbrigade",
 							[3] = "2021-12-14",
+						},
+						["Hyuna"] = {
+							[1] = 8,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Poussin"] = {
 							[1] = 25,
@@ -1517,10 +1732,20 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Kpoxa"] = {
+							[1] = 16,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Romulus"] = {
 							[1] = 16,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
+						},
+						["Tinypp"] = {
+							[1] = 19,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Loriane"] = {
 							[1] = 34,
@@ -1537,29 +1762,34 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
+						["Tom"] = {
+							[1] = 34,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
 						["Brazzley"] = {
 							[1] = 60,
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
+						},
+						["Aezgaroth"] = {
+							[1] = 32,
+							[2] = "Equilibrium",
+							[3] = "2021-12-16",
 						},
 						["Luline"] = {
 							[1] = 37,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Aezgaroth"] = {
-							[1] = 28,
-							[2] = "Equilibrium",
+						["Sweettea"] = {
+							[1] = 9,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Lilldemon"] = {
 							[1] = 23,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Contagia"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Unoliv"] = {
@@ -1595,25 +1825,15 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Weefeller"] = {
-							[1] = 17,
+							[1] = 19,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 					},
 					["Hunter"] = {
-						["Musicbox"] = {
-							[1] = 14,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Gunome"] = {
-							[1] = 9,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Ainea"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Amster"] = {
+							[1] = 50,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Midgorio"] = {
@@ -1621,19 +1841,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Parmigiano"] = {
-							[1] = 9,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
 						["Gnomby"] = {
-							[1] = 6,
+							[1] = 8,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Pixystix"] = {
-							[1] = 29,
-							[2] = "",
+						["Gunome"] = {
+							[1] = 9,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Maladict"] = {
@@ -1641,14 +1856,39 @@ CensusPlus_Database = {
 							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
-						["Hanni"] = {
-							[1] = 60,
-							[2] = "Rats",
+						["Parmigiano"] = {
+							[1] = 9,
+							[2] = "",
 							[3] = "2021-12-14",
+						},
+						["Barfly"] = {
+							[1] = 33,
+							[2] = "Adventurers Guild",
+							[3] = "2021-12-16",
 						},
 						["Dorrie"] = {
 							[1] = 8,
 							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Coralie"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
+						},
+						["Pixystix"] = {
+							[1] = 29,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Musicbox"] = {
+							[1] = 14,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
+						["Ainea"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Tinkerblew"] = {
@@ -1656,15 +1896,15 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Nakie"] = {
-							[1] = 22,
-							[2] = "Still Alive",
+						["Hanni"] = {
+							[1] = 60,
+							[2] = "Rats",
 							[3] = "2021-12-14",
 						},
-						["Amster"] = {
-							[1] = 50,
-							[2] = "",
-							[3] = "2021-12-14",
+						["Nakie"] = {
+							[1] = 26,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Widge"] = {
 							[1] = 21,
@@ -1676,17 +1916,12 @@ CensusPlus_Database = {
 						["Aoi"] = {
 							[1] = 60,
 							[2] = "Macrochelys",
-							[3] = "2021-12-14",
-						},
-						["Ellsa"] = {
-							[1] = 2,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Ragg"] = {
-							[1] = 27,
+							[1] = 28,
 							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Tinald"] = {
 							[1] = 20,
@@ -1698,9 +1933,54 @@ CensusPlus_Database = {
 							[2] = "Adventurers Guild",
 							[3] = "2021-12-14",
 						},
-						["Bingroy"] = {
-							[1] = 60,
+						["Wuzzy"] = {
+							[1] = 43,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
+						["Mert"] = {
+							[1] = 45,
+							[2] = "Adventurers Guild",
+							[3] = "2021-12-14",
+						},
+						["Gnomolia"] = {
+							[1] = 11,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Ludwyg"] = {
+							[1] = 18,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Thiccaf"] = {
+							[1] = 11,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Quatercut"] = {
+							[1] = 36,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Moja"] = {
+							[1] = 57,
+							[2] = "Molten Core Salvage Ops",
+							[3] = "2021-12-16",
+						},
+						["Ellsa"] = {
+							[1] = 2,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Bred"] = {
+							[1] = 49,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-16",
+						},
+						["Junge"] = {
+							[1] = 60,
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Yzen"] = {
@@ -1718,44 +1998,9 @@ CensusPlus_Database = {
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
-						["Mert"] = {
-							[1] = 45,
-							[2] = "Adventurers Guild",
-							[3] = "2021-12-14",
-						},
-						["Frozenn"] = {
-							[1] = 13,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Gnomolia"] = {
-							[1] = 10,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Extros"] = {
-							[1] = 3,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Sniff"] = {
 							[1] = 38,
 							[2] = "Aqua",
-							[3] = "2021-12-14",
-						},
-						["Quatercut"] = {
-							[1] = 36,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Wuzzy"] = {
-							[1] = 43,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Fizzler"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Littlemagic"] = {
@@ -1763,34 +2008,44 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Salma"] = {
+							[1] = 15,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Fizzler"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-14",
+						},
 						["Sploosh"] = {
 							[1] = 60,
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Junge"] = {
-							[1] = 60,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Ludwyg"] = {
-							[1] = 18,
+						["Frozenn"] = {
+							[1] = 13,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
+						},
+						["Cuteandvalid"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
 						},
 						["Soulqt"] = {
 							[1] = 4,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Bred"] = {
-							[1] = 47,
-							[2] = "Thunder Ale Brewing Co",
+						["Bingroy"] = {
+							[1] = 60,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Thiccaf"] = {
-							[1] = 11,
-							[2] = "Newcomers",
+						["Extros"] = {
+							[1] = 3,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Twidgert"] = {
@@ -1832,9 +2087,9 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Xareil"] = {
-							[1] = 33,
-							[2] = "Hand of Wrath",
+						["Anansee"] = {
+							[1] = 5,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Daszul"] = {
@@ -1842,9 +2097,9 @@ CensusPlus_Database = {
 							[2] = "Blacktooth Grin",
 							[3] = "2021-12-14",
 						},
-						["Anansee"] = {
-							[1] = 5,
-							[2] = "Still Alive",
+						["Xareil"] = {
+							[1] = 33,
+							[2] = "Hand of Wrath",
 							[3] = "2021-12-14",
 						},
 						["Boysoul"] = {
@@ -1904,6 +2159,16 @@ CensusPlus_Database = {
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
+						["Marani"] = {
+							[1] = 29,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Shuzaapi"] = {
+							[1] = 36,
+							[2] = "Golden Moon",
+							[3] = "2021-12-16",
+						},
 						["Tanden"] = {
 							[1] = 10,
 							[2] = "Newcomers",
@@ -1913,6 +2178,11 @@ CensusPlus_Database = {
 							[1] = 11,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
+						},
+						["Durisshaman"] = {
+							[1] = 47,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Zdychaj"] = {
 							[1] = 12,
@@ -1929,14 +2199,14 @@ CensusPlus_Database = {
 							[2] = "Blacktooth Grin",
 							[3] = "2021-12-14",
 						},
-						["Drojun"] = {
-							[1] = 21,
-							[2] = "The Revantusk Tribe",
-							[3] = "2021-12-14",
-						},
 						["Kenwapoutli"] = {
 							[1] = 5,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Drojun"] = {
+							[1] = 21,
+							[2] = "The Revantusk Tribe",
 							[3] = "2021-12-14",
 						},
 						["Reggaeki"] = {
@@ -1962,14 +2232,14 @@ CensusPlus_Database = {
 					},
 					["Priest"] = {
 						["Healjob"] = {
-							[1] = 13,
+							[1] = 15,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Eksdee"] = {
 							[1] = 60,
 							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Nivea"] = {
 							[1] = 60,
@@ -1979,6 +2249,11 @@ CensusPlus_Database = {
 						["Duvudoll"] = {
 							[1] = 10,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Wozzup"] = {
+							[1] = 59,
+							[2] = "Rats",
 							[3] = "2021-12-14",
 						},
 						["Flameira"] = {
@@ -1991,10 +2266,10 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Wozzup"] = {
-							[1] = 59,
-							[2] = "Rats",
-							[3] = "2021-12-14",
+						["Yotingis"] = {
+							[1] = 41,
+							[2] = "Equilibrium",
+							[3] = "2021-12-16",
 						},
 						["Nomu"] = {
 							[1] = 26,
@@ -2018,20 +2293,25 @@ CensusPlus_Database = {
 							[2] = "Champions of Lordaeron",
 							[3] = "2021-12-14",
 						},
-						["Ihatecaves"] = {
-							[1] = 48,
+						["Xapii"] = {
+							[1] = 60,
 							[2] = "Golden Moon",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Asante"] = {
 							[1] = 55,
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
+						["Ihatecaves"] = {
+							[1] = 48,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
 						["Haster"] = {
 							[1] = 60,
 							[2] = "Erratic Role Play",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Freyaa"] = {
 							[1] = 36,
@@ -2077,39 +2357,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Royunter"] = {
-							[1] = 60,
-							[2] = "Nephilim",
-							[3] = "2021-12-14",
-						},
-						["Mokzie"] = {
-							[1] = 42,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Takaka"] = {
 							[1] = 41,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Thrass"] = {
+						["Skuld"] = {
 							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
+							[2] = "Equilibrium",
+							[3] = "2021-12-16",
 						},
 						["Dole"] = {
 							[1] = 60,
 							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Marketcz"] = {
-							[1] = 22,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Regllak"] = {
-							[1] = 29,
-							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Hian"] = {
@@ -2117,14 +2377,34 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Aquamarine"] = {
-							[1] = 46,
-							[2] = "The Silver Crusade",
+						["Nallely"] = {
+							[1] = 19,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Nurinkhan"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
+						},
+						["Squandrel"] = {
+							[1] = 27,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Yogolobolo"] = {
-							[1] = 50,
-							[2] = "Newcomers",
+						["Fornax"] = {
+							[1] = 19,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Royunter"] = {
+							[1] = 60,
+							[2] = "Nephilim",
+							[3] = "2021-12-14",
+						},
+						["Regllak"] = {
+							[1] = 29,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Trim"] = {
@@ -2132,14 +2412,39 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Nurinkhan"] = {
-							[1] = 60,
-							[2] = "Traveler",
+						["Marketcz"] = {
+							[1] = 22,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Squandrel"] = {
-							[1] = 27,
+						["Bloodseeker"] = {
+							[1] = 46,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
+						},
+						["Razzor"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
+						},
+						["Yogolobolo"] = {
+							[1] = 50,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Mokzie"] = {
+							[1] = 42,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Aquamarine"] = {
+							[1] = 46,
+							[2] = "The Silver Crusade",
+							[3] = "2021-12-14",
+						},
+						["Thrass"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 					},
@@ -2151,9 +2456,9 @@ CensusPlus_Database = {
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
-						["Carapace"] = {
-							[1] = 18,
-							[2] = "Still Alive",
+						["Cornamento"] = {
+							[1] = 30,
+							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
 						["Kalocsa"] = {
@@ -2192,9 +2497,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Kawaremono"] = {
-							[1] = 48,
+							[1] = 50,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Molkerei"] = {
 							[1] = 60,
@@ -2211,9 +2516,9 @@ CensusPlus_Database = {
 							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
-						["Cornamento"] = {
-							[1] = 30,
-							[2] = "Equilibrium",
+						["Carapace"] = {
+							[1] = 18,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 					},
@@ -2271,7 +2576,7 @@ CensusPlus_Database = {
 						["Raboldonz"] = {
 							[1] = 60,
 							[2] = "Heirs of Quel'thalas",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Zoccolo"] = {
 							[1] = 12,
@@ -2279,9 +2584,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Evernius"] = {
-							[1] = 22,
+							[1] = 24,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Druide"] = {
 							[1] = 60,
@@ -2298,15 +2603,35 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Harem"] = {
+							[1] = 1,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Brumbur"] = {
 							[1] = 60,
 							[2] = "Schmetterlingsbrigade",
 							[3] = "2021-12-14",
 						},
+						["Tota"] = {
+							[1] = 22,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Rann"] = {
+							[1] = 22,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Eatzchikin"] = {
 							[1] = 1,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
+						},
+						["Rythorne"] = {
+							[1] = 39,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Zantewest"] = {
 							[1] = 60,
@@ -2323,24 +2648,19 @@ CensusPlus_Database = {
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
+						["Grushug"] = {
+							[1] = 46,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-16",
+						},
+						["Gonocoque"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
+						},
 						["Kombajn"] = {
 							[1] = 60,
 							[2] = "Equilibrium",
-							[3] = "2021-12-14",
-						},
-						["Talrasha"] = {
-							[1] = 25,
-							[2] = "Equilibrium",
-							[3] = "2021-12-14",
-						},
-						["Aruum"] = {
-							[1] = 2,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Freshgrass"] = {
-							[1] = 19,
-							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Khorney"] = {
@@ -2348,9 +2668,9 @@ CensusPlus_Database = {
 							[2] = "Rats",
 							[3] = "2021-12-14",
 						},
-						["Bozzawangozo"] = {
-							[1] = 58,
-							[2] = "Newcomers",
+						["Talrasha"] = {
+							[1] = 25,
+							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
 						["Harkyn"] = {
@@ -2358,9 +2678,29 @@ CensusPlus_Database = {
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
+						["Freshgrass"] = {
+							[1] = 19,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Dated"] = {
+							[1] = 10,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Bozzawangozo"] = {
+							[1] = 59,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Liwanu"] = {
 							[1] = 20,
 							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Aruum"] = {
+							[1] = 2,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Loregar"] = {
@@ -2378,16 +2718,16 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Dated"] = {
-							[1] = 10,
-							[2] = "",
-							[3] = "2021-12-14",
+						["Bayanni"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
 						},
 					},
 					["Shaman"] = {
-						["Shamhammer"] = {
+						["Fallingsky"] = {
 							[1] = 60,
-							[2] = "Traveler",
+							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
 						["Chainchain"] = {
@@ -2401,9 +2741,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Shamankingxd"] = {
-							[1] = 17,
+							[1] = 21,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Nashoba"] = {
 							[1] = 60,
@@ -2425,6 +2765,11 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Chei"] = {
+							[1] = 13,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Russet"] = {
 							[1] = 10,
 							[2] = "Still Alive",
@@ -2440,10 +2785,25 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Tygore"] = {
+						["Hordebad"] = {
 							[1] = 60,
-							[2] = "Rats",
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
+						},
+						["Zengu"] = {
+							[1] = 8,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Pokawan"] = {
+							[1] = 1,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Joosebug"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
 						},
 						["Eatmorchikin"] = {
 							[1] = 25,
@@ -2455,9 +2815,9 @@ CensusPlus_Database = {
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
-						["Fallingsky"] = {
+						["Shamhammer"] = {
 							[1] = 60,
-							[2] = "Nephilim",
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Indomitabull"] = {
@@ -2470,9 +2830,9 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Hordebad"] = {
+						["Tygore"] = {
 							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+							[2] = "Rats",
 							[3] = "2021-12-14",
 						},
 					},
@@ -2536,6 +2896,11 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
+						["Rogathson"] = {
+							[1] = 28,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
 						["Moscraciun"] = {
 							[1] = 1,
 							[2] = "Newcomers",
@@ -2567,19 +2932,24 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Rinzo"] = {
-							[1] = 29,
+							[1] = 4,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
+						},
+						["Brynjolf"] = {
+							[1] = 34,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Urdr"] = {
 							[1] = 27,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Rogathson"] = {
-							[1] = 28,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
+						["Holz"] = {
+							[1] = 25,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Ventrix"] = {
 							[1] = 8,
@@ -2608,10 +2978,20 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Vendigus"] = {
+							[1] = 50,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
+						},
 						["Beechrose"] = {
 							[1] = 21,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
+						},
+						["Silverforge"] = {
+							[1] = 19,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Poule"] = {
 							[1] = 27,
@@ -2649,24 +3029,24 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Kaladin"] = {
-							[1] = 43,
+							[1] = 45,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Leroyjenkinz"] = {
 							[1] = 10,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Silverforge"] = {
-							[1] = 15,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
+						["Steelarm"] = {
+							[1] = 14,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Ondor"] = {
-							[1] = 20,
+							[1] = 23,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Hadj"] = {
 							[1] = 1,
@@ -2704,9 +3084,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Whelps"] = {
-							[1] = 18,
+							[1] = 22,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 					},
 					["Priest"] = {
@@ -2718,7 +3098,7 @@ CensusPlus_Database = {
 						["Er"] = {
 							[1] = 60,
 							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Quasimodom"] = {
 							[1] = 7,
@@ -2750,24 +3130,24 @@ CensusPlus_Database = {
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
-						["Kralke"] = {
-							[1] = 22,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Alicemay"] = {
 							[1] = 31,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Ferginelli"] = {
-							[1] = 9,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Niamh"] = {
-							[1] = 24,
+							[1] = 28,
 							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Ferginelli"] = {
+							[1] = 19,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Fontina"] = {
+							[1] = 8,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Dumon"] = {
@@ -2780,8 +3160,8 @@ CensusPlus_Database = {
 							[2] = "Basic Campfire",
 							[3] = "2021-12-14",
 						},
-						["Fontina"] = {
-							[1] = 8,
+						["Kralke"] = {
+							[1] = 22,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -2823,19 +3203,24 @@ CensusPlus_Database = {
 						["Rysdu"] = {
 							[1] = 25,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 					},
 					["Hunter"] = {
-						["Dwali"] = {
-							[1] = 21,
+						["Leslina"] = {
+							[1] = 7,
 							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Thorleif"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Yolonda"] = {
-							[1] = 48,
+							[1] = 50,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Smuggow"] = {
 							[1] = 51,
@@ -2862,6 +3247,11 @@ CensusPlus_Database = {
 							[2] = "Dirty Paws",
 							[3] = "2021-12-14",
 						},
+						["Regor"] = {
+							[1] = 59,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
 						["Dagas"] = {
 							[1] = 15,
 							[2] = "Newcomers",
@@ -2871,6 +3261,11 @@ CensusPlus_Database = {
 							[1] = 60,
 							[2] = "The Brotherhood",
 							[3] = "2021-12-14",
+						},
+						["Cringefiesta"] = {
+							[1] = 23,
+							[2] = "Golden Moon",
+							[3] = "2021-12-16",
 						},
 						["Punji"] = {
 							[1] = 14,
@@ -2882,14 +3277,14 @@ CensusPlus_Database = {
 							[2] = "Adventurers Guild",
 							[3] = "2021-12-14",
 						},
-						["Aharon"] = {
-							[1] = 39,
-							[2] = "Champions of Lordaeron",
-							[3] = "2021-12-14",
-						},
 						["Batz"] = {
 							[1] = 7,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Aharon"] = {
+							[1] = 39,
+							[2] = "Champions of Lordaeron",
 							[3] = "2021-12-14",
 						},
 						["Rodoni"] = {
@@ -2902,9 +3297,9 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Thorleif"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Dwali"] = {
+							[1] = 21,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -2958,6 +3353,11 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Vexi"] = {
+							[1] = 8,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Leninisalive"] = {
 							[1] = 7,
 							[2] = "Still Alive",
@@ -2973,9 +3373,9 @@ CensusPlus_Database = {
 							[2] = "Warsong Outriders",
 							[3] = "2021-12-14",
 						},
-						["Ninatest"] = {
-							[1] = 2,
-							[2] = "Newcomers",
+						["Marienelle"] = {
+							[1] = 6,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Vemanas"] = {
@@ -2988,15 +3388,15 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Jeantoor"] = {
-							[1] = 31,
-							[2] = "Rush n Attack",
+						["Ninatest"] = {
+							[1] = 2,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Marienelle"] = {
-							[1] = 6,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
+						["Jeantoor"] = {
+							[1] = 32,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
 						},
 						["Warzera"] = {
 							[1] = 48,
@@ -3015,6 +3415,11 @@ CensusPlus_Database = {
 						},
 					},
 					["Warlock"] = {
+						["Kralkatorrik"] = {
+							[1] = 40,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Hazoret"] = {
 							[1] = 28,
 							[2] = "Still Alive",
@@ -3035,19 +3440,24 @@ CensusPlus_Database = {
 							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
-						["Drust"] = {
-							[1] = 40,
-							[2] = "Ered Ruin",
-							[3] = "2021-12-14",
-						},
-						["Lisellah"] = {
-							[1] = 60,
+						["Twoffal"] = {
+							[1] = 20,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Deadlycure"] = {
-							[1] = 11,
+						["Enslaved"] = {
+							[1] = 55,
+							[2] = "from Hell",
+							[3] = "2021-12-16",
+						},
+						["Amateramisu"] = {
+							[1] = 31,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Drust"] = {
+							[1] = 40,
+							[2] = "Ered Ruin",
 							[3] = "2021-12-14",
 						},
 						["Zwerverx"] = {
@@ -3055,19 +3465,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Amateramisu"] = {
-							[1] = 31,
+						["Deadlycure"] = {
+							[1] = 11,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Lisellah"] = {
+							[1] = 60,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Edward"] = {
 							[1] = 60,
 							[2] = "Warsong Outriders",
-							[3] = "2021-12-14",
-						},
-						["Twoffal"] = {
-							[1] = 20,
-							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Cyrosis"] = {
@@ -3087,8 +3497,8 @@ CensusPlus_Database = {
 							[2] = "Champions of Lordaeron",
 							[3] = "2021-12-14",
 						},
-						["Blawles"] = {
-							[1] = 40,
+						["Udet"] = {
+							[1] = 23,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -3097,14 +3507,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Beeper"] = {
+							[1] = 22,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Zagrius"] = {
 							[1] = 9,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Nerlax"] = {
-							[1] = 27,
-							[2] = "Newcomers",
+						["Allison"] = {
+							[1] = 25,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Xronoz"] = {
@@ -3112,8 +3527,13 @@ CensusPlus_Database = {
 							[2] = "Rush n Attack",
 							[3] = "2021-12-14",
 						},
-						["Kumicho"] = {
-							[1] = 18,
+						["Rars"] = {
+							[1] = 41,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Velarus"] = {
+							[1] = 9,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
@@ -3132,8 +3552,8 @@ CensusPlus_Database = {
 							[2] = "Council of Consequence",
 							[3] = "2021-12-14",
 						},
-						["Udet"] = {
-							[1] = 23,
+						["Blawles"] = {
+							[1] = 40,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -3142,48 +3562,8 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Velarus"] = {
-							[1] = 9,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Idkk"] = {
-							[1] = 50,
-							[2] = "Macrochelys",
-							[3] = "2021-12-14",
-						},
-						["Foolsas"] = {
-							[1] = 5,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Allison"] = {
-							[1] = 25,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Qxey"] = {
-							[1] = 60,
-							[2] = "Warsong Outriders",
-							[3] = "2021-12-14",
-						},
-						["Saintanger"] = {
-							[1] = 60,
-							[2] = "The Knights Templar",
-							[3] = "2021-12-14",
-						},
-						["Gibson"] = {
-							[1] = 29,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Bettelheim"] = {
-							[1] = 11,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Dimlore"] = {
-							[1] = 11,
+						["Nerlax"] = {
+							[1] = 27,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -3192,9 +3572,49 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Rars"] = {
-							[1] = 41,
-							[2] = "",
+						["Foolsas"] = {
+							[1] = 5,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Cartleige"] = {
+							[1] = 39,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Qxey"] = {
+							[1] = 60,
+							[2] = "Warsong Outriders",
+							[3] = "2021-12-14",
+						},
+						["Bettelheim"] = {
+							[1] = 11,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Gibson"] = {
+							[1] = 29,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Saintanger"] = {
+							[1] = 60,
+							[2] = "The Knights Templar",
+							[3] = "2021-12-14",
+						},
+						["Dimlore"] = {
+							[1] = 11,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Idkk"] = {
+							[1] = 50,
+							[2] = "Macrochelys",
+							[3] = "2021-12-14",
+						},
+						["Kumicho"] = {
+							[1] = 18,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Poe"] = {
@@ -3207,7 +3627,7 @@ CensusPlus_Database = {
 						["Petrichor"] = {
 							[1] = 60,
 							[2] = "",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Dynatox"] = {
 							[1] = 12,
@@ -3240,13 +3660,13 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Squanchu"] = {
-							[1] = 21,
+							[1] = 23,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Morrison"] = {
-							[1] = 60,
-							[2] = "Traveler",
+						["Megavoid"] = {
+							[1] = 35,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Ecleroth"] = {
@@ -3265,13 +3685,18 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Supersix"] = {
-							[1] = 25,
+							[1] = 28,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Megavoid"] = {
-							[1] = 35,
-							[2] = "Newcomers",
+						["Onig"] = {
+							[1] = 48,
+							[2] = "Equilibrium",
+							[3] = "2021-12-16",
+						},
+						["Morrison"] = {
+							[1] = 60,
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Milagre"] = {
@@ -3287,19 +3712,19 @@ CensusPlus_Database = {
 					},
 					["Priest"] = {
 						["Xaltotun"] = {
-							[1] = 44,
+							[1] = 47,
 							[2] = "Nephilim",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Vendy"] = {
 							[1] = 15,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Myxomop"] = {
 							[1] = 60,
 							[2] = "Rush n Attack",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Nevis"] = {
 							[1] = 29,
@@ -3341,15 +3766,20 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Dencyy"] = {
+							[1] = 3,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Skiddles"] = {
 							[1] = 60,
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
 						["Presh"] = {
-							[1] = 19,
+							[1] = 22,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Muerte"] = {
 							[1] = 16,
@@ -3405,15 +3835,30 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Ydarb"] = {
+							[1] = 40,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Dhaken"] = {
+							[1] = 5,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Stoker"] = {
+							[1] = 4,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Colette"] = {
 							[1] = 60,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Krivga"] = {
-							[1] = 12,
+						["Artorious"] = {
+							[1] = 15,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Andi"] = {
 							[1] = 24,
@@ -3435,6 +3880,11 @@ CensusPlus_Database = {
 							[2] = "Church of the Turtle",
 							[3] = "2021-12-14",
 						},
+						["Lethanos"] = {
+							[1] = 20,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Prill"] = {
 							[1] = 7,
 							[2] = "Still Alive",
@@ -3443,6 +3893,11 @@ CensusPlus_Database = {
 						["Altor"] = {
 							[1] = 17,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Maxherbing"] = {
+							[1] = 1,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Isengrim"] = {
@@ -3455,19 +3910,24 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Lincerossa"] = {
+							[1] = 12,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Babylon"] = {
+							[1] = 7,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Inhuman"] = {
+							[1] = 13,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Protoje"] = {
 							[1] = 60,
 							[2] = "Rush n Attack",
-							[3] = "2021-12-14",
-						},
-						["Postbote"] = {
-							[1] = 1,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Alldmgonme"] = {
-							[1] = 21,
-							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Priya"] = {
@@ -3475,19 +3935,44 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Lemi"] = {
-							[1] = 23,
-							[2] = "Still Alive",
+						["Postbote"] = {
+							[1] = 1,
+							[2] = "",
 							[3] = "2021-12-14",
+						},
+						["Velva"] = {
+							[1] = 20,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Alldmgonme"] = {
+							[1] = 21,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Ailith"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
+						},
+						["Deneth"] = {
+							[1] = 10,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Lemi"] = {
+							[1] = 27,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Otheum"] = {
 							[1] = 60,
 							[2] = "Macrochelys",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Alkatraz"] = {
+						["Only"] = {
 							[1] = 60,
-							[2] = "Cenarion Circle",
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Madnan"] = {
@@ -3495,20 +3980,20 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Perolo"] = {
-							[1] = 30,
-							[2] = "Newcomers",
+						["Eyce"] = {
+							[1] = 60,
+							[2] = "Adventurers Guild",
 							[3] = "2021-12-14",
 						},
-						["Tzuriel"] = {
-							[1] = 38,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Lincerossa"] = {
+						["Krivga"] = {
 							[1] = 12,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
+						},
+						["Oppa"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
 						},
 						["Axil"] = {
 							[1] = 30,
@@ -3520,9 +4005,9 @@ CensusPlus_Database = {
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
-						["Maxherbing"] = {
-							[1] = 1,
-							[2] = "",
+						["Perolo"] = {
+							[1] = 30,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Risk"] = {
@@ -3530,15 +4015,15 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Artorious"] = {
-							[1] = 8,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
+						["Fallout"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
 						},
-						["Stereolab"] = {
+						["Zellz"] = {
 							[1] = 9,
-							[2] = "Anachronistic",
-							[3] = "2021-12-14",
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Nq"] = {
 							[1] = 23,
@@ -3560,9 +4045,9 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Nithal"] = {
-							[1] = 34,
-							[2] = "",
+						["Murderhobo"] = {
+							[1] = 11,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Ninjako"] = {
@@ -3573,11 +4058,21 @@ CensusPlus_Database = {
 						["Valadorn"] = {
 							[1] = 25,
 							[2] = "The Silver Crusade",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Xenor"] = {
 							[1] = 22,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Nithal"] = {
+							[1] = 34,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Thunda"] = {
+							[1] = 8,
+							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
 						["Pullava"] = {
@@ -3585,25 +4080,15 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Murderhobo"] = {
-							[1] = 11,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Velva"] = {
-							[1] = 20,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Garrithos"] = {
-							[1] = 7,
+							[1] = 12,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Hcturtle"] = {
-							[1] = 34,
+							[1] = 36,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Abscynthe"] = {
 							[1] = 52,
@@ -3626,23 +4111,23 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Jaric"] = {
-							[1] = 30,
+							[1] = 31,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Fundamental"] = {
 							[1] = 20,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Thunda"] = {
-							[1] = 8,
-							[2] = "The Scourge",
+						["Stereolab"] = {
+							[1] = 9,
+							[2] = "Anachronistic",
 							[3] = "2021-12-14",
 						},
-						["Eyce"] = {
-							[1] = 60,
-							[2] = "Adventurers Guild",
+						["Tzuriel"] = {
+							[1] = 38,
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Erosia"] = {
@@ -3650,15 +4135,15 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Only"] = {
+						["Alkatraz"] = {
 							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+							[2] = "Cenarion Circle",
 							[3] = "2021-12-14",
 						},
 					},
 					["Paladin"] = {
-						["Dagor"] = {
-							[1] = 20,
+						["Irilin"] = {
+							[1] = 14,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -3673,8 +4158,148 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Alaslord"] = {
+							[1] = 24,
+							[2] = "The Scourge",
+							[3] = "2021-12-16",
+						},
+						["Duskbriar"] = {
+							[1] = 11,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Unclerukus"] = {
+							[1] = 27,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Seraphica"] = {
+							[1] = 9,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Bagbeater"] = {
+							[1] = 28,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Klodrian"] = {
+							[1] = 22,
+							[2] = "Heirs of Quel'thalas",
+							[3] = "2021-12-16",
+						},
+						["Schroedes"] = {
+							[1] = 60,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Azleah"] = {
+							[1] = 6,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Elpelon"] = {
+							[1] = 57,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Drkr"] = {
+							[1] = 2,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Aelius"] = {
+							[1] = 60,
+							[2] = "Heirs of Quel'thalas",
+							[3] = "2021-12-14",
+						},
+						["Ulfrick"] = {
 							[1] = 22,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Sivent"] = {
+							[1] = 5,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Lacaya"] = {
+							[1] = 60,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Heaven"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Carlas"] = {
+							[1] = 32,
+							[2] = "Champions of Lordaeron",
+							[3] = "2021-12-14",
+						},
+						["Rocsa"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-16",
+						},
+						["Nook"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Aetheris"] = {
+							[1] = 21,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Barradino"] = {
+							[1] = 9,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Halaskar"] = {
+							[1] = 20,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Tronkalonk"] = {
+							[1] = 55,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Galond"] = {
+							[1] = 28,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Augustus"] = {
+							[1] = 27,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Ponkaloza"] = {
+							[1] = 33,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Adelaidde"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Catgirl"] = {
+							[1] = 60,
+							[2] = "Adventurers Guild",
+							[3] = "2021-12-14",
+						},
+						["Athanor"] = {
+							[1] = 32,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Whitemare"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Hurtle"] = {
@@ -3693,9 +4318,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Apologet"] = {
-							[1] = 12,
+							[1] = 16,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Cuon"] = {
 							[1] = 6,
@@ -3707,94 +4332,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Unclerukus"] = {
-							[1] = 26,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Drkr"] = {
-							[1] = 2,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Seraphica"] = {
-							[1] = 9,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Horrid"] = {
-							[1] = 11,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Aretain"] = {
-							[1] = 35,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Yura"] = {
-							[1] = 16,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Irilin"] = {
-							[1] = 14,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Duskbriar"] = {
-							[1] = 11,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Seilan"] = {
-							[1] = 28,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Schroedes"] = {
-							[1] = 60,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Azleah"] = {
-							[1] = 6,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Galpala"] = {
 							[1] = 60,
 							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
-						["Elpelon"] = {
-							[1] = 57,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
 						["Warusia"] = {
-							[1] = 23,
+							[1] = 24,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Aelius"] = {
-							[1] = 60,
-							[2] = "Heirs of Quel'thalas",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Lighata"] = {
 							[1] = 60,
 							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
-						},
-						["Halaskar"] = {
-							[1] = 20,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Tronkalonk"] = {
-							[1] = 55,
-							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Gahorak"] = {
@@ -3807,34 +4357,9 @@ CensusPlus_Database = {
 							[2] = "The Silver Crusade",
 							[3] = "2021-12-14",
 						},
-						["Corall"] = {
-							[1] = 60,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
 						["Christsn"] = {
 							[1] = 25,
 							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Sivent"] = {
-							[1] = 5,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Lacaya"] = {
-							[1] = 60,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Heaven"] = {
-							[1] = 60,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Walladin"] = {
-							[1] = 13,
-							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Lorthos"] = {
@@ -3842,29 +4367,19 @@ CensusPlus_Database = {
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
-						["Carlas"] = {
-							[1] = 32,
-							[2] = "Champions of Lordaeron",
-							[3] = "2021-12-14",
-						},
-						["Rocsa"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
-						},
-						["Nymphadora"] = {
-							[1] = 21,
+						["Converge"] = {
+							[1] = 9,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Athanor"] = {
-							[1] = 32,
+						["Aretain"] = {
+							[1] = 35,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Nook"] = {
-							[1] = 60,
-							[2] = "Traveler",
+						["Horrid"] = {
+							[1] = 11,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Rembrand"] = {
@@ -3872,8 +4387,8 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Aetheris"] = {
-							[1] = 21,
+						["Kipling"] = {
+							[1] = 8,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
@@ -3887,8 +4402,78 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Bagbeater"] = {
+						["Palroc"] = {
+							[1] = 31,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Nymphadora"] = {
+							[1] = 21,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Seilan"] = {
 							[1] = 28,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Yura"] = {
+							[1] = 16,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Rainbow"] = {
+							[1] = 47,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Ricardo"] = {
+							[1] = 50,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
+						},
+						["Htoroxa"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-16",
+						},
+						["Corall"] = {
+							[1] = 60,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Prianos"] = {
+							[1] = 16,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Gavor"] = {
+							[1] = 49,
+							[2] = "Champions of Lordaeron",
+							[3] = "2021-12-14",
+						},
+						["Hegem"] = {
+							[1] = 39,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-16",
+						},
+						["Dagor"] = {
+							[1] = 20,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Reynard"] = {
+							[1] = 35,
+							[2] = "Fuerzas de Lordaeron",
+							[3] = "2021-12-14",
+						},
+						["Walladin"] = {
+							[1] = 13,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Abdel"] = {
+							[1] = 23,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -3897,116 +4482,16 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Kipling"] = {
-							[1] = 8,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Converge"] = {
-							[1] = 9,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Rainbow"] = {
-							[1] = 47,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Galond"] = {
-							[1] = 28,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Augustus"] = {
-							[1] = 27,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Whitemare"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
-						},
-						["Ponkaloza"] = {
-							[1] = 29,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Ulfrick"] = {
-							[1] = 22,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Ricardo"] = {
-							[1] = 50,
-							[2] = "Rush n Attack",
-							[3] = "2021-12-14",
-						},
-						["Abdel"] = {
-							[1] = 23,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Adelaidde"] = {
-							[1] = 60,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Gavor"] = {
-							[1] = 49,
-							[2] = "Champions of Lordaeron",
-							[3] = "2021-12-14",
-						},
-						["Reynard"] = {
-							[1] = 35,
-							[2] = "Fuerzas de Lordaeron",
-							[3] = "2021-12-14",
-						},
-						["Catgirl"] = {
-							[1] = 60,
-							[2] = "Adventurers Guild",
-							[3] = "2021-12-14",
-						},
 					},
 					["Rogue"] = {
-						["Kean"] = {
-							[1] = 14,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Oakman"] = {
-							[1] = 26,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Tjerin"] = {
-							[1] = 60,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Jill"] = {
-							[1] = 7,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[1] = 30,
+							[2] = "The Scourge",
+							[3] = "2021-12-16",
 						},
 						["Sassa"] = {
 							[1] = 60,
 							[2] = "Southfury Trading Co",
-							[3] = "2021-12-14",
-						},
-						["Tents"] = {
-							[1] = 1,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Lirht"] = {
-							[1] = 23,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Eskay"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Falka"] = {
@@ -4014,9 +4499,9 @@ CensusPlus_Database = {
 							[2] = "Church of the Turtle",
 							[3] = "2021-12-14",
 						},
-						["Zoomer"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Norlyn"] = {
+							[1] = 39,
+							[2] = "Golden Moon",
 							[3] = "2021-12-14",
 						},
 						["Eriana"] = {
@@ -4029,10 +4514,65 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Zdenlu"] = {
-							[1] = 48,
+						["Enfanterino"] = {
+							[1] = 5,
+							[2] = "Equilibrium",
+							[3] = "2021-12-14",
+						},
+						["Zulian"] = {
+							[1] = 54,
+							[2] = "Equilibrium",
+							[3] = "2021-12-14",
+						},
+						["Isra"] = {
+							[1] = 32,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
+						["Sneakyduck"] = {
+							[1] = 53,
+							[2] = "The Scourge",
+							[3] = "2021-12-16",
+						},
+						["Kean"] = {
+							[1] = 17,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Tjerin"] = {
+							[1] = 60,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Jill"] = {
+							[1] = 18,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Daan"] = {
+							[1] = 60,
 							[2] = "Schmetterlingsbrigade",
 							[3] = "2021-12-14",
+						},
+						["Tents"] = {
+							[1] = 1,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Lirht"] = {
+							[1] = 23,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Eskay"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-14",
+						},
+						["Dokster"] = {
+							[1] = 20,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Justaddwater"] = {
 							[1] = 6,
@@ -4049,9 +4589,44 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Enfanterino"] = {
-							[1] = 5,
-							[2] = "Equilibrium",
+						["Sakara"] = {
+							[1] = 36,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Zdenlu"] = {
+							[1] = 48,
+							[2] = "Schmetterlingsbrigade",
+							[3] = "2021-12-14",
+						},
+						["Zoomer"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-14",
+						},
+						["Ppots"] = {
+							[1] = 3,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Yellowbeard"] = {
+							[1] = 41,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Deathsting"] = {
+							[1] = 33,
+							[2] = "Champions of Lordaeron",
+							[3] = "2021-12-14",
+						},
+						["Durisrogue"] = {
+							[1] = 50,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Romcstaby"] = {
+							[1] = 2,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Layle"] = {
@@ -4059,49 +4634,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Daan"] = {
-							[1] = 60,
-							[2] = "Schmetterlingsbrigade",
-							[3] = "2021-12-14",
-						},
-						["Zulian"] = {
-							[1] = 54,
-							[2] = "Equilibrium",
-							[3] = "2021-12-14",
-						},
-						["Romcstaby"] = {
-							[1] = 2,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Yasu"] = {
 							[1] = 26,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Deathsting"] = {
-							[1] = 33,
-							[2] = "Champions of Lordaeron",
-							[3] = "2021-12-14",
-						},
-						["Isra"] = {
-							[1] = 32,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Norlyn"] = {
-							[1] = 39,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
 						["Ebrehe"] = {
 							[1] = 40,
 							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Sneakyduck"] = {
-							[1] = 52,
-							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
 					},
@@ -4146,8 +4686,23 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Gandy"] = {
-							[1] = 13,
+						["Hysen"] = {
+							[1] = 8,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Irius"] = {
+							[1] = 8,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Tirsh"] = {
+							[1] = 46,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Rhiathor"] = {
+							[1] = 15,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -4156,14 +4711,24 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Lilja"] = {
+							[1] = 50,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Lotto"] = {
+							[1] = 49,
+							[2] = "Thunder Ale Brewing Co",
+							[3] = "2021-12-16",
+						},
+						["Gandy"] = {
+							[1] = 13,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
 						["Acqua"] = {
 							[1] = 3,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Rhiathor"] = {
-							[1] = 15,
-							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Madiison"] = {
@@ -4191,9 +4756,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Lynnet"] = {
-							[1] = 35,
-							[2] = "",
+						["Feibrut"] = {
+							[1] = 5,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Wasley"] = {
@@ -4202,13 +4767,13 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Lyoko"] = {
-							[1] = 22,
+							[1] = 34,
 							[2] = "Golden Moon",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Feibrut"] = {
-							[1] = 5,
-							[2] = "Still Alive",
+						["Lynnet"] = {
+							[1] = 35,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 					},
@@ -4228,6 +4793,11 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
+						["Wymar"] = {
+							[1] = 45,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Avelena"] = {
 							[1] = 19,
 							[2] = "Newcomers",
@@ -4237,6 +4807,11 @@ CensusPlus_Database = {
 							[1] = 14,
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
+						},
+						["Olympia"] = {
+							[1] = 7,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
 						},
 						["Fatherken"] = {
 							[1] = 14,
@@ -4310,6 +4885,11 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Alidara"] = {
+							[1] = 18,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
 						["Popara"] = {
 							[1] = 15,
 							[2] = "Newcomers",
@@ -4321,14 +4901,14 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Vestasoull"] = {
-							[1] = 14,
+							[1] = 20,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Glucosyl"] = {
-							[1] = 16,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
+						["Wine"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
 						},
 						["Saeph"] = {
 							[1] = 5,
@@ -4338,6 +4918,11 @@ CensusPlus_Database = {
 						["Launchpad"] = {
 							[1] = 11,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Krava"] = {
+							[1] = 13,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Kaelthuzad"] = {
@@ -4355,9 +4940,9 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Krava"] = {
-							[1] = 13,
-							[2] = "Still Alive",
+						["Glucosyl"] = {
+							[1] = 16,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -4399,6 +4984,11 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
+						["Emveltir"] = {
+							[1] = 17,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Submission"] = {
 							[1] = 5,
 							[2] = "Golden Moon",
@@ -4420,9 +5010,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Gunnhildur"] = {
-							[1] = 36,
+							[1] = 40,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Aurela"] = {
 							[1] = 60,
@@ -4451,74 +5041,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Zambesi"] = {
-							[1] = 9,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Ceredwyn"] = {
 							[1] = 48,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Bearme"] = {
-							[1] = 10,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Sigil"] = {
-							[1] = 14,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Aicirtap"] = {
-							[1] = 53,
-							[2] = "Equilibrium",
-							[3] = "2021-12-14",
-						},
-						["Yennefyr"] = {
-							[1] = 26,
+						["Crimble"] = {
+							[1] = 8,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Castellum"] = {
-							[1] = 47,
-							[2] = "Rush n Attack",
-							[3] = "2021-12-14",
-						},
-						["Tajheri"] = {
-							[1] = 14,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Thuleia"] = {
-							[1] = 60,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Dusk"] = {
-							[1] = 53,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Essa"] = {
-							[1] = 14,
-							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Shevi"] = {
 							[1] = 26,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Mojack"] = {
-							[1] = 15,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Nightelfy"] = {
-							[1] = 22,
-							[2] = "Golden Moon",
 							[3] = "2021-12-14",
 						},
 						["Gozreh"] = {
@@ -4536,108 +5071,38 @@ CensusPlus_Database = {
 							[2] = "Golden Moon",
 							[3] = "2021-12-14",
 						},
-						["Ollathair"] = {
-							[1] = 10,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Iltharil"] = {
-							[1] = 60,
-							[2] = "Guilty Grove",
-							[3] = "2021-12-14",
-						},
-						["Diaka"] = {
-							[1] = 35,
-							[2] = "Schmetterlingsbrigade",
-							[3] = "2021-12-14",
-						},
 						["Valenor"] = {
 							[1] = 35,
 							[2] = "Bloodgulch",
 							[3] = "2021-12-14",
 						},
-						["Rafaleours"] = {
-							[1] = 28,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Ghostly"] = {
-							[1] = 43,
+							[1] = 44,
 							[2] = "",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Isabel"] = {
 							[1] = 60,
 							[2] = "Bloodgulch",
 							[3] = "2021-12-14",
 						},
-						["Tabbycat"] = {
-							[1] = 16,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Anamoly"] = {
-							[1] = 42,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Pereg"] = {
-							[1] = 5,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Ahady"] = {
-							[1] = 6,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
+						["Agseisa"] = {
+							[1] = 47,
+							[2] = "",
+							[3] = "2021-12-16",
 						},
 						["Tellagann"] = {
 							[1] = 60,
 							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
-						["Dayhana"] = {
-							[1] = 18,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Grimmcat"] = {
-							[1] = 44,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Yousei"] = {
-							[1] = 27,
+						["Manien"] = {
+							[1] = 8,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Drekye"] = {
-							[1] = 32,
-							[2] = "Heirs of Quel'thalas",
-							[3] = "2021-12-14",
-						},
-						["Laen"] = {
-							[1] = 17,
-							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Moriluilas"] = {
-							[1] = 12,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Newk"] = {
-							[1] = 60,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Nudaris"] = {
-							[1] = 15,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Motoem"] = {
-							[1] = 23,
+						["Zambesi"] = {
+							[1] = 9,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -4651,54 +5116,9 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Aliyanna"] = {
-							[1] = 17,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Moondoggie"] = {
-							[1] = 38,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Grimhide"] = {
 							[1] = 15,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Eleri"] = {
-							[1] = 26,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Nevie"] = {
-							[1] = 46,
-							[2] = "Equilibrium",
-							[3] = "2021-12-14",
-						},
-						["Crimble"] = {
-							[1] = 8,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Torien"] = {
-							[1] = 6,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
-						["Rori"] = {
-							[1] = 60,
-							[2] = "Equilibrium",
-							[3] = "2021-12-14",
-						},
-						["Rodry"] = {
-							[1] = 13,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Kuric"] = {
-							[1] = 60,
-							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Elun"] = {
@@ -4706,9 +5126,19 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Adahlina"] = {
-							[1] = 34,
-							[2] = "Equilibrium",
+						["Rafaleours"] = {
+							[1] = 28,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Nudaris"] = {
+							[1] = 15,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Rodry"] = {
+							[1] = 13,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Naieth"] = {
@@ -4721,21 +5151,256 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Aliyanna"] = {
+							[1] = 17,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Emilol"] = {
+							[1] = 26,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
 						["Muffen"] = {
 							[1] = 16,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-					},
-					["Rogue"] = {
-						["Naraiya"] = {
-							[1] = 12,
+						["Aicirtap"] = {
+							[1] = 53,
+							[2] = "Equilibrium",
+							[3] = "2021-12-14",
+						},
+						["Thuleia"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Yousei"] = {
+							[1] = 27,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Grimmcat"] = {
+							[1] = 44,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Laladina"] = {
-							[1] = 22,
+						["Mojack"] = {
+							[1] = 15,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
+						["Nightelfy"] = {
+							[1] = 32,
+							[2] = "Golden Moon",
+							[3] = "2021-12-16",
+						},
+						["Gnarl"] = {
+							[1] = 8,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Ollathair"] = {
+							[1] = 10,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Iltharil"] = {
+							[1] = 60,
+							[2] = "Guilty Grove",
+							[3] = "2021-12-14",
+						},
+						["Sigil"] = {
+							[1] = 16,
 							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Thanotharion"] = {
+							[1] = 12,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Azith"] = {
+							[1] = 12,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Junho"] = {
+							[1] = 13,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Angolas"] = {
+							[1] = 14,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Rori"] = {
+							[1] = 60,
+							[2] = "Equilibrium",
+							[3] = "2021-12-14",
+						},
+						["Arou"] = {
+							[1] = 25,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Nasirdruid"] = {
+							[1] = 22,
+							[2] = "Aqua",
+							[3] = "2021-12-16",
+						},
+						["Eirrae"] = {
+							[1] = 23,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Diaka"] = {
+							[1] = 35,
+							[2] = "Schmetterlingsbrigade",
+							[3] = "2021-12-14",
+						},
+						["Dayhana"] = {
+							[1] = 18,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Ypsilenna"] = {
+							[1] = 21,
+							[2] = "Golden Moon",
+							[3] = "2021-12-16",
+						},
+						["Moonbeast"] = {
+							[1] = 28,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Drekye"] = {
+							[1] = 32,
+							[2] = "Heirs of Quel'thalas",
+							[3] = "2021-12-14",
+						},
+						["Laen"] = {
+							[1] = 17,
+							[2] = "Golden Moon",
+							[3] = "2021-12-14",
+						},
+						["Pereg"] = {
+							[1] = 5,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Newk"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Essa"] = {
+							[1] = 14,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Motoem"] = {
+							[1] = 23,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Bearme"] = {
+							[1] = 18,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Ahady"] = {
+							[1] = 6,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Dusk"] = {
+							[1] = 53,
+							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Anamoly"] = {
+							[1] = 42,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Castellum"] = {
+							[1] = 47,
+							[2] = "Rush n Attack",
+							[3] = "2021-12-14",
+						},
+						["Eleri"] = {
+							[1] = 31,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Nevie"] = {
+							[1] = 46,
+							[2] = "Equilibrium",
+							[3] = "2021-12-14",
+						},
+						["Tajheri"] = {
+							[1] = 14,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Torien"] = {
+							[1] = 6,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Yennefyr"] = {
+							[1] = 26,
+							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Paenthy"] = {
+							[1] = 60,
+							[2] = "Macrochelys",
+							[3] = "2021-12-16",
+						},
+						["Kuric"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Tabbycat"] = {
+							[1] = 16,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Adahlina"] = {
+							[1] = 34,
+							[2] = "Equilibrium",
+							[3] = "2021-12-14",
+						},
+						["Moriluilas"] = {
+							[1] = 12,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Moondoggie"] = {
+							[1] = 40,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Meril"] = {
+							[1] = 9,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+					},
+					["Rogue"] = {
+						["Olah"] = {
+							[1] = 18,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Ambaras"] = {
+							[1] = 40,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Shavae"] = {
@@ -4743,14 +5408,14 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Shadowmeld"] = {
-							[1] = 13,
+						["Driftinrogue"] = {
+							[1] = 40,
 							[2] = "",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Olah"] = {
-							[1] = 18,
-							[2] = "Newcomers",
+						["Naraiya"] = {
+							[1] = 12,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Astrld"] = {
@@ -4761,6 +5426,11 @@ CensusPlus_Database = {
 						["Rawlings"] = {
 							[1] = 60,
 							[2] = "Memento Mori",
+							[3] = "2021-12-14",
+						},
+						["Shadowmeld"] = {
+							[1] = 13,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Nyami"] = {
@@ -4783,9 +5453,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Ambaras"] = {
-							[1] = 40,
-							[2] = "Still Alive",
+						["Laladina"] = {
+							[1] = 22,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -4806,9 +5476,9 @@ CensusPlus_Database = {
 							[3] = "2021-12-14",
 						},
 						["Starshadow"] = {
-							[1] = 13,
+							[1] = 17,
 							[2] = "Still Alive",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Lunia"] = {
 							[1] = 10,
@@ -4835,14 +5505,19 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
+						["Xayn"] = {
+							[1] = 36,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
 						["Tuon"] = {
 							[1] = 22,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Vierna"] = {
-							[1] = 60,
-							[2] = "Traveler",
+						["Jye"] = {
+							[1] = 28,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Nalla"] = {
@@ -4890,9 +5565,39 @@ CensusPlus_Database = {
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
-						["Nightfox"] = {
-							[1] = 38,
+						["Nuador"] = {
+							[1] = 13,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Fandra"] = {
+							[1] = 16,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Comedian"] = {
+							[1] = 10,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Pirut"] = {
+							[1] = 31,
 							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Tchazzar"] = {
+							[1] = 1,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
+						},
+						["Nightfox"] = {
+							[1] = 40,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Bionch"] = {
+							[1] = 13,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Nottie"] = {
@@ -4900,19 +5605,14 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Bionch"] = {
-							[1] = 13,
-							[2] = "Newcomers",
+						["Cydith"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Mapko"] = {
 							[1] = 14,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Cydith"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Purana"] = {
@@ -4945,14 +5645,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Fandra"] = {
-							[1] = 16,
+						["Nyralim"] = {
+							[1] = 6,
 							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
-						["Jye"] = {
-							[1] = 28,
-							[2] = "Newcomers",
+						["Vierna"] = {
+							[1] = 60,
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 					},
@@ -4966,6 +5666,11 @@ CensusPlus_Database = {
 							[1] = 25,
 							[2] = "",
 							[3] = "2021-12-14",
+						},
+						["Jayde"] = {
+							[1] = 11,
+							[2] = "Champions of Lordaeron",
+							[3] = "2021-12-16",
 						},
 						["Noora"] = {
 							[1] = 3,
@@ -5029,15 +5734,15 @@ CensusPlus_Database = {
 						["Chadzug"] = {
 							[1] = 60,
 							[2] = "Golden Moon",
-							[3] = "2021-12-14",
-						},
-						["Polisen"] = {
-							[1] = 5,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
+							[3] = "2021-12-16",
 						},
 						["Thaanos"] = {
 							[1] = 10,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Miklaa"] = {
+							[1] = 13,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -5046,8 +5751,8 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Miklaa"] = {
-							[1] = 13,
+						["Polisen"] = {
+							[1] = 5,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -5058,9 +5763,9 @@ CensusPlus_Database = {
 							[2] = "Adventurers Guild",
 							[3] = "2021-12-14",
 						},
-						["Gurky"] = {
-							[1] = 6,
-							[2] = "Newcomers",
+						["Jcool"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Mushromancer"] = {
@@ -5073,6 +5778,11 @@ CensusPlus_Database = {
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
+						["Krakk"] = {
+							[1] = 57,
+							[2] = "Golden Moon",
+							[3] = "2021-12-16",
+						},
 						["Gobula"] = {
 							[1] = 5,
 							[2] = "Still Alive",
@@ -5083,9 +5793,14 @@ CensusPlus_Database = {
 							[2] = "Rats",
 							[3] = "2021-12-14",
 						},
-						["Jcool"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Kramlock"] = {
+							[1] = 7,
+							[2] = "Still Alive",
+							[3] = "2021-12-16",
+						},
+						["Gurky"] = {
+							[1] = 6,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -5100,37 +5815,42 @@ CensusPlus_Database = {
 							[2] = "The Revantusk Tribe",
 							[3] = "2021-12-14",
 						},
+						["Kotick"] = {
+							[1] = 7,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Stabbah"] = {
+							[1] = 60,
+							[2] = "Traveler",
+							[3] = "2021-12-16",
+						},
 						["Slaneribon"] = {
 							[1] = 12,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
+						},
+						["Shinkle"] = {
+							[1] = 14,
+							[2] = "",
+							[3] = "2021-12-16",
+						},
+						["Obby"] = {
+							[1] = 34,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Kleptomaniac"] = {
 							[1] = 15,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Stabbah"] = {
-							[1] = 60,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Kotick"] = {
-							[1] = 7,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 					},
 					["Hunter"] = {
-						["Hundorta"] = {
-							[1] = 48,
-							[2] = "Champions of Lordaeron",
-							[3] = "2021-12-14",
-						},
-						["Shortround"] = {
-							[1] = 60,
-							[2] = "Nephilim",
-							[3] = "2021-12-14",
+						["Dizzywink"] = {
+							[1] = 28,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Jolly"] = {
 							[1] = 18,
@@ -5141,6 +5861,21 @@ CensusPlus_Database = {
 							[1] = 12,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
+						},
+						["Hundorta"] = {
+							[1] = 48,
+							[2] = "Champions of Lordaeron",
+							[3] = "2021-12-14",
+						},
+						["Shortround"] = {
+							[1] = 60,
+							[2] = "Nephilim",
+							[3] = "2021-12-14",
+						},
+						["Blixx"] = {
+							[1] = 25,
+							[2] = "Newcomers",
+							[3] = "2021-12-16",
 						},
 						["Hobbe"] = {
 							[1] = 5,
@@ -5212,8 +5947,8 @@ CensusPlus_Database = {
 						},
 					},
 					["Paladin"] = {
-						["Azii"] = {
-							[1] = 2,
+						["Alldin"] = {
+							[1] = 22,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
@@ -5232,9 +5967,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Violette"] = {
-							[1] = 22,
-							[2] = "Newcomers",
+						["Aetherius"] = {
+							[1] = 25,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Anasthasia"] = {
@@ -5267,14 +6002,14 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Davison"] = {
-							[1] = 21,
-							[2] = "",
-							[3] = "2021-12-14",
-						},
 						["Munkis"] = {
 							[1] = 15,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Davison"] = {
+							[1] = 21,
+							[2] = "",
 							[3] = "2021-12-14",
 						},
 						["Isiliana"] = {
@@ -5317,14 +6052,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Alldin"] = {
-							[1] = 22,
+						["Azii"] = {
+							[1] = 2,
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Aetherius"] = {
-							[1] = 25,
-							[2] = "",
+						["Violette"] = {
+							[1] = 22,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Regenonce"] = {
@@ -5488,14 +6223,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Daizaa"] = {
-							[1] = 5,
-							[2] = "Still Alive",
+						["Scarsdale"] = {
+							[1] = 4,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Zenith"] = {
-							[1] = 29,
-							[2] = "The Scourge",
+						["Blair"] = {
+							[1] = 36,
+							[2] = "The Silver Crusade",
 							[3] = "2021-12-14",
 						},
 						["Ursulla"] = {
@@ -5503,9 +6238,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Blair"] = {
-							[1] = 36,
-							[2] = "The Silver Crusade",
+						["Zenith"] = {
+							[1] = 29,
+							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
 						["Mirusa"] = {
@@ -5548,9 +6283,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Scarsdale"] = {
-							[1] = 4,
-							[2] = "Newcomers",
+						["Daizaa"] = {
+							[1] = 5,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 					},
@@ -5713,9 +6448,9 @@ CensusPlus_Database = {
 							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Junna"] = {
-							[1] = 60,
-							[2] = "Warsong Outriders",
+						["Jejumbe"] = {
+							[1] = 52,
+							[2] = "Hand of Wrath",
 							[3] = "2021-12-14",
 						},
 						["Granktef"] = {
@@ -5733,14 +6468,14 @@ CensusPlus_Database = {
 							[2] = "Rush n Attack",
 							[3] = "2021-12-14",
 						},
-						["Kiriko"] = {
-							[1] = 44,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Ogrosh"] = {
 							[1] = 42,
 							[2] = "",
+							[3] = "2021-12-14",
+						},
+						["Kiriko"] = {
+							[1] = 44,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Flexbert"] = {
@@ -5773,9 +6508,9 @@ CensusPlus_Database = {
 							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
-						["Jejumbe"] = {
-							[1] = 52,
-							[2] = "Hand of Wrath",
+						["Junna"] = {
+							[1] = 60,
+							[2] = "Warsong Outriders",
 							[3] = "2021-12-14",
 						},
 					},
@@ -5799,19 +6534,19 @@ CensusPlus_Database = {
 						},
 					},
 					["Hunter"] = {
-						["Asrah"] = {
-							[1] = 1,
-							[2] = "Newcomers",
+						["Beastwood"] = {
+							[1] = 58,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Koraka"] = {
-							[1] = 5,
-							[2] = "Newcomers",
+						["Chil"] = {
+							[1] = 55,
+							[2] = "Sanctuary",
 							[3] = "2021-12-14",
 						},
-						["Naar"] = {
-							[1] = 45,
-							[2] = "Traveler",
+						["Helto"] = {
+							[1] = 32,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Nazgrek"] = {
@@ -5824,19 +6559,19 @@ CensusPlus_Database = {
 							[2] = "Bloodgulch",
 							[3] = "2021-12-14",
 						},
-						["Kebhunter"] = {
-							[1] = 39,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Tuzk"] = {
 							[1] = 49,
 							[2] = "Rush n Attack",
 							[3] = "2021-12-14",
 						},
-						["Helto"] = {
-							[1] = 32,
-							[2] = "Still Alive",
+						["Kebhunter"] = {
+							[1] = 39,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Naar"] = {
+							[1] = 45,
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Virushunter"] = {
@@ -5859,14 +6594,14 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Beastwood"] = {
-							[1] = 58,
-							[2] = "Thunder Ale Brewing Co",
+						["Asrah"] = {
+							[1] = 1,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Chil"] = {
-							[1] = 55,
-							[2] = "Sanctuary",
+						["Koraka"] = {
+							[1] = 5,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -6403,9 +7138,9 @@ CensusPlus_Database = {
 						},
 					},
 					["Shaman"] = {
-						["Shamhammer"] = {
+						["Fallingsky"] = {
 							[1] = 60,
-							[2] = "Traveler",
+							[2] = "Nephilim",
 							[3] = "2021-12-14",
 						},
 						["Chainchain"] = {
@@ -6413,8 +7148,8 @@ CensusPlus_Database = {
 							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
-						["Russet"] = {
-							[1] = 10,
+						["Motok"] = {
+							[1] = 23,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
@@ -6433,9 +7168,9 @@ CensusPlus_Database = {
 							[2] = "Hand of Wrath",
 							[3] = "2021-12-14",
 						},
-						["Fallingsky"] = {
+						["Shamhammer"] = {
 							[1] = 60,
-							[2] = "Nephilim",
+							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
 						["Aum"] = {
@@ -6453,8 +7188,8 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Motok"] = {
-							[1] = 23,
+						["Russet"] = {
+							[1] = 10,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
@@ -6608,14 +7343,14 @@ CensusPlus_Database = {
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
-						["Axebreaker"] = {
-							[1] = 18,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Niamh"] = {
 							[1] = 23,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Axebreaker"] = {
+							[1] = 18,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 					},
@@ -6630,14 +7365,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Yolonda"] = {
-							[1] = 48,
-							[2] = "Still Alive",
-							[3] = "2021-12-14",
-						},
 						["Plupp"] = {
 							[1] = 60,
 							[2] = "The Brotherhood",
+							[3] = "2021-12-14",
+						},
+						["Yolonda"] = {
+							[1] = 48,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Horion"] = {
@@ -6924,14 +7659,14 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Idkk"] = {
-							[1] = 50,
-							[2] = "Macrochelys",
+						["Ggnore"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
-						["Bettelheim"] = {
-							[1] = 10,
-							[2] = "Still Alive",
+						["Saintanger"] = {
+							[1] = 60,
+							[2] = "The Knights Templar",
 							[3] = "2021-12-14",
 						},
 						["Blawles"] = {
@@ -6939,9 +7674,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Ggnore"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Idkk"] = {
+							[1] = 50,
+							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
 						["Rars"] = {
@@ -6954,9 +7689,9 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Saintanger"] = {
-							[1] = 60,
-							[2] = "The Knights Templar",
+						["Bettelheim"] = {
+							[1] = 10,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Poe"] = {
@@ -7063,9 +7798,9 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Thunda"] = {
-							[1] = 5,
-							[2] = "The Scourge",
+						["Murderhobo"] = {
+							[1] = 11,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Garrithos"] = {
@@ -7118,9 +7853,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Murderhobo"] = {
-							[1] = 11,
-							[2] = "Newcomers",
+						["Thunda"] = {
+							[1] = 5,
+							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
 					},
@@ -7145,19 +7880,9 @@ CensusPlus_Database = {
 							[2] = "Immortals",
 							[3] = "2021-12-14",
 						},
-						["Glucosyl"] = {
-							[1] = 15,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
-						["Metaxa"] = {
-							[1] = 46,
-							[2] = "Traveler",
-							[3] = "2021-12-14",
-						},
-						["Necroslave"] = {
-							[1] = 34,
-							[2] = "The Scourge",
+						["Vestasoul"] = {
+							[1] = 12,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Zamisa"] = {
@@ -7165,9 +7890,19 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Vestasoul"] = {
-							[1] = 12,
-							[2] = "Still Alive",
+						["Necroslave"] = {
+							[1] = 34,
+							[2] = "The Scourge",
+							[3] = "2021-12-14",
+						},
+						["Metaxa"] = {
+							[1] = 46,
+							[2] = "Traveler",
+							[3] = "2021-12-14",
+						},
+						["Glucosyl"] = {
+							[1] = 15,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Popara"] = {
@@ -7207,9 +7942,9 @@ CensusPlus_Database = {
 							[2] = "Church of the Turtle",
 							[3] = "2021-12-14",
 						},
-						["Deathsting"] = {
-							[1] = 32,
-							[2] = "Champions of Lordaeron",
+						["Zoomer"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Eriana"] = {
@@ -7227,9 +7962,9 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Yasu"] = {
-							[1] = 26,
-							[2] = "Newcomers",
+						["Deathsting"] = {
+							[1] = 32,
+							[2] = "Champions of Lordaeron",
 							[3] = "2021-12-14",
 						},
 						["Flashyflash"] = {
@@ -7247,9 +7982,9 @@ CensusPlus_Database = {
 							[2] = "Schmetterlingsbrigade",
 							[3] = "2021-12-14",
 						},
-						["Zoomer"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+						["Yasu"] = {
+							[1] = 26,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Ebrehe"] = {
@@ -7269,18 +8004,13 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Orcas"] = {
-							[1] = 40,
-							[2] = "Southfury Trading Co",
+						["Kaelyn"] = {
+							[1] = 15,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
-							[4] = 4,
-							[5] = "2021-12-14&0&0",
-							[6] = 7,
-							[7] = "2021-12-14",
-							[8] = 5,
 						},
-						["Chaetheus"] = {
-							[1] = 43,
+						["Lynnet"] = {
+							[1] = 35,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
@@ -7289,8 +8019,8 @@ CensusPlus_Database = {
 							[2] = "The Scourge",
 							[3] = "2021-12-14",
 						},
-						["Lynnet"] = {
-							[1] = 35,
+						["Chaetheus"] = {
+							[1] = 43,
 							[2] = "",
 							[3] = "2021-12-14",
 						},
@@ -7324,10 +8054,15 @@ CensusPlus_Database = {
 							[2] = "Golden Moon",
 							[3] = "2021-12-14",
 						},
-						["Kaelyn"] = {
-							[1] = 15,
-							[2] = "Newcomers",
+						["Orcas"] = {
+							[1] = 40,
+							[2] = "Southfury Trading Co",
 							[3] = "2021-12-14",
+							[4] = 4,
+							[5] = "2021-12-14&0&0",
+							[6] = 7,
+							[7] = "2021-12-14",
+							[8] = 5,
 						},
 					},
 					["Paladin"] = {
@@ -7461,9 +8196,9 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Faustor"] = {
-							[1] = 27,
-							[2] = "Still Alive",
+						["Abdel"] = {
+							[1] = 23,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Augustus"] = {
@@ -7471,14 +8206,14 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Abdel"] = {
-							[1] = 23,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Ponkaloza"] = {
 							[1] = 28,
 							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
+						["Faustor"] = {
+							[1] = 27,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Rocsa"] = {
@@ -7506,14 +8241,14 @@ CensusPlus_Database = {
 							[2] = "Rush n Attack",
 							[3] = "2021-12-14",
 						},
-						["Whitemare"] = {
-							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
-							[3] = "2021-12-14",
-						},
 						["Converge"] = {
 							[1] = 8,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Whitemare"] = {
+							[1] = 60,
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 					},
@@ -7609,9 +8344,9 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Dusk"] = {
-							[1] = 53,
-							[2] = "Guilty Grove",
+						["Muffen"] = {
+							[1] = 16,
+							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
 						["Aicirtap"] = {
@@ -7694,9 +8429,9 @@ CensusPlus_Database = {
 							[2] = "Newcomers",
 							[3] = "2021-12-14",
 						},
-						["Castellum"] = {
-							[1] = 47,
-							[2] = "Rush n Attack",
+						["Dusk"] = {
+							[1] = 53,
+							[2] = "Guilty Grove",
 							[3] = "2021-12-14",
 						},
 						["Elun"] = {
@@ -7709,7 +8444,7 @@ CensusPlus_Database = {
 							[2] = "Equilibrium",
 							[3] = "2021-12-14",
 						},
-						["Eleri"] = {
+						["Shevi"] = {
 							[1] = 25,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
@@ -7719,14 +8454,14 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Muffen"] = {
-							[1] = 16,
-							[2] = "Newcomers",
-							[3] = "2021-12-14",
-						},
 						["Tintel"] = {
 							[1] = 18,
 							[2] = "Still Alive",
+							[3] = "2021-12-14",
+						},
+						["Castellum"] = {
+							[1] = 47,
+							[2] = "Rush n Attack",
 							[3] = "2021-12-14",
 						},
 						["Azith"] = {
@@ -7734,13 +8469,13 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Crimble"] = {
-							[1] = 5,
+						["Eleri"] = {
+							[1] = 25,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Shevi"] = {
-							[1] = 25,
+						["Crimble"] = {
+							[1] = 5,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
@@ -7818,14 +8553,14 @@ CensusPlus_Database = {
 							[2] = "Schmetterlingsbrigade",
 							[3] = "2021-12-14",
 						},
-						["Shendelzare"] = {
-							[1] = 11,
+						["Starshadow"] = {
+							[1] = 13,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
-						["Cydith"] = {
+						["Zoomies"] = {
 							[1] = 60,
-							[2] = "Thunder Ale Brewing Co",
+							[2] = "Macrochelys",
 							[3] = "2021-12-14",
 						},
 						["Nock"] = {
@@ -7853,9 +8588,9 @@ CensusPlus_Database = {
 							[2] = "",
 							[3] = "2021-12-14",
 						},
-						["Zoomies"] = {
+						["Cydith"] = {
 							[1] = 60,
-							[2] = "Macrochelys",
+							[2] = "Thunder Ale Brewing Co",
 							[3] = "2021-12-14",
 						},
 						["Vierna"] = {
@@ -7878,16 +8613,16 @@ CensusPlus_Database = {
 							[2] = "Traveler",
 							[3] = "2021-12-14",
 						},
-						["Starshadow"] = {
-							[1] = 13,
+						["Shendelzare"] = {
+							[1] = 11,
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 					},
 					["Rogue"] = {
-						["Olah"] = {
-							[1] = 17,
-							[2] = "Newcomers",
+						["Naraiya"] = {
+							[1] = 11,
+							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Laladina"] = {
@@ -7920,14 +8655,14 @@ CensusPlus_Database = {
 							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
+						["Olah"] = {
+							[1] = 17,
+							[2] = "Newcomers",
+							[3] = "2021-12-14",
+						},
 						["Feralino"] = {
 							[1] = 21,
 							[2] = "",
-							[3] = "2021-12-14",
-						},
-						["Naraiya"] = {
-							[1] = 11,
-							[2] = "Still Alive",
 							[3] = "2021-12-14",
 						},
 						["Scillia"] = {

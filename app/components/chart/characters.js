@@ -68,6 +68,9 @@ export default class ChartCharactersComponent extends Component {
     @tracked raceFilter;
     @tracked useClassFilter;
     @tracked classFilter;
+    @tracked useLevelFilter;
+    @tracked levelFilterMin = this.config.constants.levelMin;
+    @tracked levelFilterMax = this.config.constants.levelMax;
 
     @action initialize() {
         this.label = this.args.label || "";
@@ -80,6 +83,7 @@ export default class ChartCharactersComponent extends Component {
         this.useGuildFilter = this.args.useGuildFilter || false;
         this.useRaceFilter = this.args.useRaceFilter || false;
         this.useClassFilter = this.args.useClassFilter || false;
+        this.useLevelFilter = this.args.useLevelFilter || false;
         this.ctx = document.getElementById(this.args.chartId).getContext('2d');
         this.renderChart();
     }
@@ -120,6 +124,11 @@ export default class ChartCharactersComponent extends Component {
                 }
                 if (this.useClassFilter && this.classFilter) {
                     if (character.class !== this.classFilter) {
+                        continue;
+                    }
+                }
+                if (this.useLevelFilter && this.levelFilterMin && this.levelFilterMax) {
+                    if (character.level < this.levelFilterMin || character.level > this.levelFilterMax) {
                         continue;
                     }
                 }
@@ -197,6 +206,50 @@ export default class ChartCharactersComponent extends Component {
 
     @action onClassFilterChange(className) {
         this.classFilter = className;
+        this.renderChart();
+    }
+
+    @action onLevelFilterMinChange(event) {
+        let value = event.srcElement.value;
+        let oldValue = this.levelFilterMin;
+        let newValue = parseInt(value);
+        if (isNaN(newValue)) {
+            event.srcElement.value = oldValue;
+            return;
+        } else if (newValue > this.levelFilterMax) {
+            this.levelFilterMin = parseInt(this.levelFilterMax);
+        } else if (newValue < this.config.constants.levelMin) {
+            this.levelFilterMin = parseInt(this.config.constants.levelMin);
+        } else if (newValue > this.config.constants.levelMax) {
+            this.levelFilterMin = parseInt(this.config.constants.levelMax);
+        } else {
+            this.levelFilterMin = newValue;
+            this.renderChart();
+            return;
+        }
+        event.srcElement.value = this.levelFilterMin;
+        this.renderChart();
+    }
+
+    @action onLevelFilterMaxChange(event) {
+        let value = event.srcElement.value;
+        let oldValue = this.levelFilterMax;
+        let newValue = parseInt(value);
+        if (isNaN(newValue)) {
+            event.srcElement.value = oldValue;
+            return;
+        } else if (newValue < this.levelFilterMin) {
+            this.levelFilterMax = parseInt(this.levelFilterMin);
+        } else if (newValue < this.config.constants.levelMin) {
+            this.levelFilterMax = parseInt(this.config.constants.levelMin);
+        } else if (newValue > this.config.constants.levelMax) {
+            this.levelFilterMax = parseInt(this.config.constants.levelMax);
+        } else {
+            this.levelFilterMax = newValue;
+            this.renderChart();
+            return;
+        }
+        event.srcElement.value = this.levelFilterMax;
         this.renderChart();
     }
 

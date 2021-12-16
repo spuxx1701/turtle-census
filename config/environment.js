@@ -23,7 +23,7 @@ module.exports = function (environment) {
     },
   };
   ENV['ember-meta'] = {
-    description: "Do you want to know what the faction balance looks like on? Or which race is the most popular? Do you want to see what's the class composition in your guild? Visit the Turtle WoW Census Website!",
+    description: "Do you want to know what the faction balance looks like on Turtle WoW? Or which race is the most popular? Do you want to see what's the class composition in your guild? Visit the Turtle WoW Census Website!",
     title: 'Turtle WoW Census',
     url: 'https://turtle-census.org'
   };

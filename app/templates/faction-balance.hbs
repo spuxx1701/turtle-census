@@ -2,5 +2,5 @@
 <Panel @size="large" @title="FACTION BALANCE">
     <Chart::Characters @chartId="chart-class-composition" @chartType="bar" @key="faction"
         @characters={{@model.characters}} @categories={{@model.categories}} @useClassFilter={{true}}
-        @useGuildFilter={{true}} />
+        @useLevelFilter={{true}} @useGuildFilter={{true}} />
 </Panel>

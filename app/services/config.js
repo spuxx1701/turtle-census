@@ -39,7 +39,9 @@ export default class ConfigService extends Service {
             { name: "Horde", color: "#C62424" },
             { name: "Alliance", color: "#2431C6" }
         ],
-        levels: Array.from({ length: 60 }, (_, i) => i + 1)
+        levels: Array.from({ length: 60 }, (_, i) => i + 1),
+        levelMin: 1,
+        levelMax: 60
     };
 
     generateRandomColor() {
