@@ -6,7 +6,6 @@ export default class GuildMembersRoute extends Route {
     @service dataLoader;
 
     async model() {
-        await this.dataLoader.load();
         return this.dataLoader.data.guilds;
     }
 }

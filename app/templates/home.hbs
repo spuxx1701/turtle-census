@@ -18,4 +18,22 @@
         • Uploading census data is currently not supported.
     </p>
     <p class="label full-width">Enjoy browsing! For feedback, hit me up on Discord: Spuxx#8010</p>
+    {{!-- <h4 class="title text-center">QUICK FACTS</h4> --}}
+    <div class="quick-fact">
+        <h5 class="title">{{@model.scannedCharacters}}</h5>
+        <p>characters scanned</p>
+    </div>
+    <div class="quick-fact">
+        <h5 class="title">{{@model.maxLevelCharacters}}</h5>
+        <p>level 60 characters</p>
+    </div>
+    <div class="quick-fact">
+        <h5 class="title">{{@model.foundGuilds}}</h5>
+        <p>guilds found</p>
+    </div>
+    <div class="quick-fact">
+        <p>updated on</p>
+        <h5 class="title">{{@model.lastUpdated}}</h5>
+    </div>
+
 </Panel>

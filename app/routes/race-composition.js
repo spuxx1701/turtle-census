@@ -7,7 +7,6 @@ export default class RaceCompositionRoute extends Route {
     @service config;
 
     async model() {
-        await this.dataLoader.load();
         return RSVP.hash({
             characters: this.dataLoader.data.characters,
             categories: this.config.constants.races,

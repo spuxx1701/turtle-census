@@ -45,3 +45,12 @@ a:hover {
     color: var(--colorTextLinkHover);
     text-decoration: none;
 }
+
+.quick-fact {
+    display: flex;
+    flex-direction: row;
+}
+
+.quick-fact p, .quick-fact h5 {
+    margin: auto 3px auto 3px;
+}
