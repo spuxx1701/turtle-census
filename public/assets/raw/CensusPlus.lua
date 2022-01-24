@@ -215,7 +215,13 @@ CensusPlus_Database = {
 						},
 						["Benn"] = {
 							["RankIndex"] = 4,
-							["Level"] = 10,
+							["Level"] = 5,
+							["Class"] = "Priest",
+							["Rank"] = "Hardcore",
+						},
+						["Skyln"] = {
+							["RankIndex"] = 4,
+							["Level"] = 8,
 							["Class"] = "Mage",
 							["Rank"] = "Hardcore",
 						},
@@ -89317,6 +89323,16 @@ CensusPlus_Database = {
 						},
 						["Elletar"] = {
 							[1] = 1,
+							[2] = "Still Alive",
+							[3] = "2021-11-20",
+						},
+						["Thalie"] = {
+							[1] = 19,
+							[2] = "Still Alive",
+							[3] = "2021-12-07",
+						},
+						["Santhitere"] = {
+							[1] = 8,
 							[2] = "Newcomers",
 							[3] = "2021-12-27",
 						},
@@ -94597,6 +94613,11 @@ CensusPlus_Database = {
 						},
 						["Derrek"] = {
 							[1] = 5,
+							[2] = "Newcomers",
+							[3] = "2021-12-11",
+						},
+						["Voufi"] = {
+							[1] = 15,
 							[2] = "",
 							[3] = "2021-12-24",
 						},

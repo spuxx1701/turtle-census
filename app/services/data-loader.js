@@ -7,14 +7,13 @@ export default class DataLoaderService extends Service {
     @service config;
 
     rawDataUri = '/assets/raw/CensusPlus.lua';
-    data = {
-        players: [],
-        gilds: []
-    };
 
     async load() {
         let raw = await fetch(this.rawDataUri)
-            .then(response => response.text());
+            .then(response => {
+                this.lastUpdated = new Date(response.headers.get('Last-Modified'));
+                return response.text();
+            });
         let json = this._parseLua(raw);
         return this._load(json);
     }
@@ -27,23 +26,20 @@ export default class DataLoaderService extends Service {
     }
 
     @action _load(json) {
-        // Census outputs all date for Alliance and Horde. Data can double since Turtle WoW allows checking members of the oppositie
-        // faction in /who queries. Census also has two ways of finding players: Via scanning guilds as well as /who queries. As long as
-        // the app does not support user-uploaded data, we can ignore the guild scanning (since it will only work on guilds the scanning
-        // character belongs to).
+        if (this.data) {
+            return this.data;
+        }
         let servers = this._findNodeByKey(json, "Servers");
         let turtleWoW = this._findNodeByKey(servers, "Turtle WoW");
         if (!turtleWoW) {
-            throw new Error("Unable to find Turtle WoW dataset.");
+            throw new Error("Unable to find 'TURTLE' faction.");
         }
-        let horde = this._findNodeByKey(turtleWoW, "Horde");
-        let alliance = this._findNodeByKey(turtleWoW, "Alliance");
-        if (!horde && !alliance) {
-            throw new Error("Unable to find neither Horde nor Alliance dataset.");
-        }
-        let factions = [horde, alliance];
+        // Since version 1.0.1, Turtle census outputs all data under a single "TURTLE" faction.
+        let turtleFaction = this._findNodeByKey(turtleWoW, "TURTLE");
+        let factions = [turtleFaction];
         let guilds = [];
         let characters = [];
+        let maxLevelCharacterCount = 0;
         let races = this.config.constants.races;
         // Loop over faction, race, class and character nodes
         for (let factionNode of factions) {
@@ -64,23 +60,15 @@ export default class DataLoaderService extends Service {
                             guild: this._parseRawString(characterNode.value.fields.find(element => element.key.raw === this.config.constants.characterPropertyKeys.guild)?.value.raw),
                             lastUpdated: this._parseRawDate(characterNode.value.fields.find(element => element.key.raw === this.config.constants.characterPropertyKeys.lastUpdated).value.raw),
                         };
+                        // Potentially increase max level character count
+                        if (character.level === 60) {
+                            maxLevelCharacterCount++;
+                        }
                         this._determineFaction(character);
                         if (!character.guild) {
                             character.guild = this.config.noGuildText;
                         }
-                        // Check for doubles in character list
-                        let existingCharacter = characters.find(element => element.name === character.name);
-                        if (existingCharacter) {
-                            // If the character exists, keep newer state
-                            if (existingCharacter.lastUpdated < character.lastUpdated) {
-                                existingCharacter = character;
-                            } else {
-                                character = existingCharacter;
-                            }
-                        } else {
-                            // If character does not exist, simply append
-                            characters.push(character);
-                        }
+                        characters.push(character);
                         // Build guild record if required
                         if (character.guild) {
                             let guild = {
@@ -107,38 +95,11 @@ export default class DataLoaderService extends Service {
             }
         }
         this.data = {
+            maxLevelCharacterCount: maxLevelCharacterCount,
             guilds: guilds,
             characters: characters
         };
         return this.data;
-        // GUILD SCANNING: CURRENTLY OBSOLETE
-        // let allianceGuildsTable = json.body[0].init[0].fields[0].value.fields[0].value.fields[0];
-        // let allianceGuilds = allianceGuildsTable.value.fields;
-        // for (let allianceGuild of allianceGuilds) {
-        //     let guildInfo = this._findFieldByKey(allianceGuild, "GuildInfo");
-        //     let update = this._findFieldByKey(guildInfo, "Update");
-        //     let members = this._findFieldByKey(allianceGuild, "Members").value.fields;
-        //     let guild = {
-        //         name: this._parseRawString(allianceGuild.key.raw),
-        //         lastUpdated: this._parseRawDate(update.value.raw),
-        //         members: [],
-        //         memberCount: members.length
-        //     };
-        //     for (let member of members) {
-        //         let character = {
-        //             name: this._parseRawString(member.key.raw),
-        //             rank: this._findFieldByKey(member, "RankIndex").value.value,
-        //             level: this._findFieldByKey(member, "Level").value.value,
-        //             class: this._parseRawString(this._findFieldByKey(member, "Class").value.raw),
-        //             guild: guild.name,
-        //             guildRank: this._parseRawString(this._findFieldByKey(member, "Rank").value.raw)
-        //         };
-        //         characters.push(character);
-        //         guild.members.push(character);
-        //     }
-        //     guilds.push(guild);
-        // }
-        // Persist the data
     }
 
     _findNodeByKey(json, key) {
