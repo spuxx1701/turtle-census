@@ -98,3 +98,7 @@ svg:not(:root).svg-inline--fa {
 .spacer {
     width: 20px;
 }
+
+.loading-indicator {
+    margin: auto;
+}
