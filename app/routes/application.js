@@ -6,13 +6,11 @@ export default class ApplicationRoute extends Route {
     @service dataLoader;
 
     async model() {
-        this.dataLoader.load();
+        await this.dataLoader.load();
     }
 
     @action
     loading() {
-        //   let controller = this.controllerFor('foo');
-        //   controller.set('currentlyLoading', true);
         return true; // allows the loading template to be shown
     }
 }
