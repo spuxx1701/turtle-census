@@ -25,7 +25,7 @@
     margin-top: 2px;
 }
 
-.chart-minimum-input {
+#chart-minimum-input {
     margin-left: 1rem;
     width: 3rem;
     text-align: end;
@@ -38,7 +38,7 @@
     text-align: end;
 }
 
-.chart-guild-filter-input {
+#chart-guild-filter-input {
     margin-left: 1rem;
     width: 20rem;
 }

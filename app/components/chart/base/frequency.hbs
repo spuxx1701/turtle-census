@@ -6,8 +6,8 @@
 </BsButtonGroup>
 {{#if this.showThreshold}}
 <div class="chart-control-container">
-    <p class="label">Minimum:</p>
-    <input class="chart-minimum-input" inputmode="numeric" pattern="[0-9]*" min={{this.thresholdMin}}
+    <label for="chart-minimum-input">Minimum:</label>
+    <input id="chart-minimum-input" inputmode="numeric" pattern="[0-9]*" min={{this.thresholdMin}}
         max={{this.thresholdMax}} value={{this.threshold}} {{on "change" this.onThresholdChange}} />
 </div>
 {{/if}}
@@ -22,7 +22,8 @@
 {{/if}}
 {{#if this.useGuildFilter}}
 <div class="chart-control-container">
-    <input class="chart-guild-filter-input" inputmode="numeric" value={{this.guildFilter}} {{on "change"
+    <label for="chart-guild-filter-input">Minimum:</label>
+    <input id="chart-guild-filter-input" inputmode="numeric" value={{this.guildFilter}} {{on "change"
         this.onGuildFilterChange}} placeholder="Filter guild..." />
 </div>
 {{/if}}
